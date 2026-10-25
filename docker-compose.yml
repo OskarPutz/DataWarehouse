@@ -8,6 +8,7 @@ services:
       - "1433:1433"
     volumes:
       - mssql_data:/var/opt/mssql
+      - ./generator:/generator
 
 volumes:
   mssql_data:

@@ -1,0 +1,33 @@
+-- Loads one snapshot into RentMaster, e.g. sqlcmd ... -v SNAPSHOT=T1 -i /generator/load.sql
+USE RentMaster;
+GO
+
+DELETE FROM Rent;
+DELETE FROM Service;
+DELETE FROM Car;
+DELETE FROM Employee;
+DELETE FROM Location;
+GO
+
+BULK INSERT Location FROM '/generator/output/$(SNAPSHOT)/location.csv'
+WITH (FORMAT = 'CSV', FIRSTROW = 2, ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
+
+BULK INSERT Employee FROM '/generator/output/$(SNAPSHOT)/employee.csv'
+WITH (FORMAT = 'CSV', FIRSTROW = 2, ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
+
+BULK INSERT Car FROM '/generator/output/$(SNAPSHOT)/car.csv'
+WITH (FORMAT = 'CSV', FIRSTROW = 2, ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', CHECK_CONSTRAINTS, TABLOCK);
+
+BULK INSERT Service FROM '/generator/output/$(SNAPSHOT)/service.csv'
+WITH (FORMAT = 'CSV', FIRSTROW = 2, ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
+
+BULK INSERT Rent FROM '/generator/output/$(SNAPSHOT)/rent.csv'
+WITH (FORMAT = 'CSV', FIRSTROW = 2, ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
+GO
+
+SELECT 'Location' AS table_name, COUNT(*) AS row_count FROM Location
+UNION ALL SELECT 'Employee', COUNT(*) FROM Employee
+UNION ALL SELECT 'Car', COUNT(*) FROM Car
+UNION ALL SELECT 'Service', COUNT(*) FROM Service
+UNION ALL SELECT 'Rent', COUNT(*) FROM Rent;
+GO
