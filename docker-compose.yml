@@ -1,0 +1,13 @@
+services:
+  rentmaster:
+    build:
+      context: .
+      dockerfile: db/Dockerfile
+    container_name: rentmaster
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+volumes:
+  mssql_data:
