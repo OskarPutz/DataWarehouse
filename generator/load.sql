@@ -1,33 +1,25 @@
--- Loads one snapshot into RentMaster, e.g. sqlcmd ... -v SNAPSHOT=T1 -i /generator/load.sql
+-- Loads one snapshot into RentMaster. Set @snapshot to 'T1' or 'T2' and run the whole file.
 USE RentMaster;
-GO
+
+DECLARE @snapshot VARCHAR(2) = 'T1';
+
+DECLARE @path VARCHAR(100) = '/generator/output/' + @snapshot + '/';
+DECLARE @options VARCHAR(200) = ''' WITH (FIELDTERMINATOR = ''|'', ROWTERMINATOR = ''0x0a'', CODEPAGE = ''RAW'', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK)';
 
 DELETE FROM Rent;
 DELETE FROM Service;
 DELETE FROM Car;
 DELETE FROM Employee;
 DELETE FROM Location;
-GO
 
-BULK INSERT Location FROM '/generator/output/$(SNAPSHOT)/location.bulk'
-WITH (FIELDTERMINATOR = '|', ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
-
-BULK INSERT Employee FROM '/generator/output/$(SNAPSHOT)/employee.bulk'
-WITH (FIELDTERMINATOR = '|', ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
-
-BULK INSERT Car FROM '/generator/output/$(SNAPSHOT)/car.bulk'
-WITH (FIELDTERMINATOR = '|', ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', CHECK_CONSTRAINTS, TABLOCK);
-
-BULK INSERT Service FROM '/generator/output/$(SNAPSHOT)/service.bulk'
-WITH (FIELDTERMINATOR = '|', ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
-
-BULK INSERT Rent FROM '/generator/output/$(SNAPSHOT)/rent.bulk'
-WITH (FIELDTERMINATOR = '|', ROWTERMINATOR = '0x0a', CODEPAGE = 'RAW', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK);
-GO
+EXEC ('BULK INSERT Location FROM ''' + @path + 'location.bulk' + @options);
+EXEC ('BULK INSERT Employee FROM ''' + @path + 'employee.bulk' + @options);
+EXEC ('BULK INSERT Car FROM ''' + @path + 'car.bulk' + @options);
+EXEC ('BULK INSERT Service FROM ''' + @path + 'service.bulk' + @options);
+EXEC ('BULK INSERT Rent FROM ''' + @path + 'rent.bulk' + @options);
 
 SELECT 'Location' AS table_name, COUNT(*) AS row_count FROM Location
 UNION ALL SELECT 'Employee', COUNT(*) FROM Employee
 UNION ALL SELECT 'Car', COUNT(*) FROM Car
 UNION ALL SELECT 'Service', COUNT(*) FROM Service
 UNION ALL SELECT 'Rent', COUNT(*) FROM Rent;
-GO
