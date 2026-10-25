@@ -1,8 +1,7 @@
-# Data generator for RentMaster (CSV files for BULK INSERT) and CEO Excel (clients.xlsx).
+# Data generator for RentMaster (.bulk files for BULK INSERT, columns separated by |) and CEO Excel (clients.xlsx).
 # T1 = 2010-2014, T2 = 2010-2020 (T1 + new rows + changes in dimensions).
 # Usage: python generator.py [number_of_rents]
 
-import csv
 import os
 import random
 import shutil
@@ -62,11 +61,14 @@ def fmt(dt):
     return dt.strftime("%Y-%m-%dT%H:%M:%S")
 
 
-def write_csv(path, header, rows):
+def line(row):
+    return "|".join(str(x) for x in row) + "\n"
+
+
+def write_bulk(path, rows):
     with open(path, "w", newline="", encoding="cp1250") as f:
-        writer = csv.writer(f, lineterminator="\n")
-        writer.writerow(header)
-        writer.writerows(rows)
+        for row in rows:
+            f.write(line(row))
 
 
 def write_excel(path, clients, on):
@@ -129,12 +131,8 @@ t1_clients = clients[: len(clients) * 55 // 100]
 # ---------- cars, rents and services ----------
 os.makedirs(os.path.join(OUT, "T1"), exist_ok=True)
 os.makedirs(os.path.join(OUT, "T2"), exist_ok=True)
-rent_t1_file = open(os.path.join(OUT, "T1", "rent.csv"), "w", newline="", encoding="cp1250")
-rent_new_file = open(os.path.join(OUT, "rent_new.tmp"), "w", newline="", encoding="cp1250")
-rent_t1 = csv.writer(rent_t1_file, lineterminator="\n")
-rent_new = csv.writer(rent_new_file, lineterminator="\n")
-rent_t1.writerow(["rent_id", "client_PESEL", "car_licence_plate", "employee_id", "date_issued", "date_returned_planned",
-                  "date_returned_actual", "cost", "mileage_before", "mileage_after"])
+rent_t1 = open(os.path.join(OUT, "T1", "rent.bulk"), "w", newline="", encoding="cp1250")
+rent_new = open(os.path.join(OUT, "rent_new.tmp"), "w", newline="", encoding="cp1250")
 
 cars = []
 plates = set()
@@ -195,10 +193,10 @@ while rents_count < ROWS:
         rents_count += 1
         if actual.date() < CUTOFF:
             rents_t1_count += 1
-            rent_t1.writerow([rents_t1_count] + row)
+            rent_t1.write(line([rents_t1_count] + row))
             car["km_t1"] = km
         else:
-            rent_new.writerow(row)
+            rent_new.write(line(row))
 
         day = actual.date() + timedelta(days=1)
         r = random.random()
@@ -207,16 +205,15 @@ while rents_count < ROWS:
     car["km_t2"] = km
     cars.append(car)
 
-rent_t1_file.close()
-rent_new_file.close()
+rent_t1.close()
+rent_new.close()
 
 # T2 rents = T1 rents + new rents with next ids
-shutil.copyfile(os.path.join(OUT, "T1", "rent.csv"), os.path.join(OUT, "T2", "rent.csv"))
+shutil.copyfile(os.path.join(OUT, "T1", "rent.bulk"), os.path.join(OUT, "T2", "rent.bulk"))
 with open(os.path.join(OUT, "rent_new.tmp"), newline="", encoding="cp1250") as src, \
-        open(os.path.join(OUT, "T2", "rent.csv"), "a", newline="", encoding="cp1250") as dst:
-    writer = csv.writer(dst, lineterminator="\n")
-    for i, row in enumerate(csv.reader(src), start=rents_t1_count + 1):
-        writer.writerow([i] + row)
+        open(os.path.join(OUT, "T2", "rent.bulk"), "a", newline="", encoding="cp1250") as dst:
+    for i, row in enumerate(src, start=rents_t1_count + 1):
+        dst.write(f"{i}|{row}")
 os.remove(os.path.join(OUT, "rent_new.tmp"))
 
 # T2 changes in CEO Excel: some clients changed phone number, some women changed surname
@@ -228,22 +225,18 @@ for c in t2_clients[: len(t1_clients)]:
         c["surname"] = random.choice(SURNAMES)[1]
 
 # ---------- write snapshots ----------
-car_header = ["licence_plate", "location_id", "Brand", "Model", "Color", "Mileage_current", "Price_per_day", "car_year", "fuel_type", "type"]
-service_header = ["service_id", "car_licence_plate", "start_date", "end_date", "mileage", "cost", "type", "description"]
-employee_header = ["employee_id", "Name", "Surname", "location_id"]
-location_header = ["location_id", "City", "Street", "Name"]
 services_t2 = services_t1 + services_new
 
 for snapshot, t in (("T1", 1), ("T2", 2)):
     folder = os.path.join(OUT, snapshot)
-    write_csv(os.path.join(folder, "location.csv"), location_header, locations)
-    write_csv(os.path.join(folder, "employee.csv"), employee_header,
-              [[e["id"], e["name"], e["surname"], e[f"loc_t{t}"]] for e in employees[: t1_employee_count if t == 1 else None]])
-    write_csv(os.path.join(folder, "car.csv"), car_header,
-              [[c["plate"], c[f"loc_t{t}"], c["brand"], c["model"], c["color"], c[f"km_t{t}"], f"{c[f'price_t{t}']}.00",
-                c["year"], c["fuel"], c["type"]] for c in cars if t == 2 or c["start"] < CUTOFF])
-    write_csv(os.path.join(folder, "service.csv"), service_header,
-              [[i] + s for i, s in enumerate(services_t1 if t == 1 else services_t2, start=1)])
+    write_bulk(os.path.join(folder, "location.bulk"), locations)
+    write_bulk(os.path.join(folder, "employee.bulk"),
+               [[e["id"], e["name"], e["surname"], e[f"loc_t{t}"]] for e in employees[: t1_employee_count if t == 1 else None]])
+    write_bulk(os.path.join(folder, "car.bulk"),
+               [[c["plate"], c[f"loc_t{t}"], c["brand"], c["model"], c["color"], c[f"km_t{t}"], f"{c[f'price_t{t}']}.00",
+                 c["year"], c["fuel"], c["type"]] for c in cars if t == 2 or c["start"] < CUTOFF])
+    write_bulk(os.path.join(folder, "service.bulk"),
+               [[i] + s for i, s in enumerate(services_t1 if t == 1 else services_t2, start=1)])
     write_excel(os.path.join(folder, "clients.xlsx"), t1_clients if t == 1 else t2_clients,
                 CUTOFF - timedelta(days=1) if t == 1 else END)
 
