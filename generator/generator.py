@@ -1,20 +1,31 @@
 # Data generator for RentMaster (.bulk files for BULK INSERT, columns separated by |) and CEO Excel (clients.xlsx).
-# T1 = 2010-2014, T2 = 2010-2020 (T1 + new rows + changes in dimensions).
+# T1 = START..CUTOFF-1 (2020-2025), T2 = START..END (2020-2026).
+# T2 = T1 + new rows + changed rows + deleted rows:
+#  - rental points: one is closed, one moves to a new address,
+#  - employees: some move to another rental point (everyone from the closed one too), new employees,
+#  - cars: some move to another rental point, new daily prices, current mileage, new cars,
+#  - clients: new phone numbers, driving licences and surnames, new clients, inactive clients removed.
+# Employees and cars are never deleted - old rents and services refer to them.
 # Usage: python generator.py [number_of_rents]
 
-import os
 import random
-import shutil
 import sys
+from collections import defaultdict
 from datetime import date, datetime, timedelta
+from pathlib import Path
 
 from openpyxl import Workbook
 
 ROWS = int(sys.argv[1]) if len(sys.argv) > 1 else 100000
-START = date(2010, 1, 1)
-CUTOFF = date(2015, 1, 1)
-END = date(2020, 12, 31)
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+START = date(2020, 1, 1)    # first day of data
+CUTOFF = date(2026, 1, 1)   # first day after T1
+END = date(2026, 10, 25)    # last day of T2
+MIN_AGE = 21                # minimum age of a client
+OUT = Path(__file__).resolve().parent / "output"
+
+# T2 changes in rental points
+CLOSED, TAKEN_OVER_BY = "Fordon", "Śródmieście"   # closed on CUTOFF, its employees and cars go to the other one
+NEW_ADDRESS = {"Wola": "Prosta 51"}                 # moved to a new address
 
 random.seed(42)
 
@@ -48,13 +59,28 @@ DESCRIPTIONS = {"routine": ["oil change", "periodic inspection", ""], "malfuncti
 
 def make_pesel(birth, male):
     sex = random.choice([1, 3, 5, 7, 9] if male else [0, 2, 4, 6, 8])
-    digits = f"{birth.year % 100:02d}{birth.month:02d}{birth.day:02d}{random.randint(0, 999):03d}{sex}"
+    month = birth.month + (20 if birth.year >= 2000 else 0)  # PESEL encodes births in 2000-2099 as month + 20
+    digits = f"{birth.year % 100:02d}{month:02d}{birth.day:02d}{random.randint(0, 999):03d}{sex}"
     s = sum(int(d) * w for d, w in zip(digits, [1, 3, 7, 9, 1, 3, 7, 9, 1, 3]))
     return digits + str((10 - s % 10) % 10)
 
 
+def new_licence():
+    return f"{random.randint(0, 99999):05d}/{random.randint(0, 99):02d}/{random.randint(0, 9999):04d}"
+
+
+def new_phone():
+    return str(random.randint(500000000, 899999999))
+
+
 def age(birth, on):
     return on.year - birth.year - ((on.month, on.day) < (birth.month, birth.day))
+
+
+def random_person():
+    male = random.random() < 0.5
+    surname = random.choice(SURNAMES)[0 if male else 1]
+    return random.choice(MALE_NAMES if male else FEMALE_NAMES), surname, male
 
 
 def fmt(dt):
@@ -65,10 +91,13 @@ def line(row):
     return "|".join(str(x) for x in row) + "\n"
 
 
-def write_bulk(path, rows):
+def write_lines(path, lines):
     with open(path, "w", newline="", encoding="cp1250") as f:
-        for row in rows:
-            f.write(line(row))
+        f.writelines(lines)
+
+
+def write_numbered(path, lines):
+    write_lines(path, (f"{i}|{s}" for i, s in enumerate(lines, start=1)))
 
 
 def write_excel(path, clients, on):
@@ -80,165 +109,169 @@ def write_excel(path, clients, on):
     wb.save(path)
 
 
-def random_person():
-    male = random.random() < 0.5
-    surname = random.choice(SURNAMES)[0 if male else 1]
-    return random.choice(MALE_NAMES if male else FEMALE_NAMES), surname, male
-
-
-# ---------- locations and employees ----------
-locations = []
+# ---------- rental points ----------
+locations, locations_t2 = [], []   # [id, city, street, name]
+point = {}                         # district -> rental point id
+idle_max, late_p = {}, {}
 for city, (code, districts, streets) in CITIES.items():
     for district in districts:
+        loc_id = point[district] = len(locations) + 1
         street = f"{random.choice(streets)} {random.randint(1, 120)}"
-        locations.append([len(locations) + 1, city, street, f"SigmaPol {city} {district}"])
+        locations.append([loc_id, city, street, f"SigmaPol {city} {district}"])
+        if district != CLOSED:
+            locations_t2.append([loc_id, city, NEW_ADDRESS.get(district, street), f"SigmaPol {city} {district}"])
+        # rental points differ in demand (max idle days before the next customer) and in late returns
+        idle_max[loc_id] = random.randint(1, 4)
+        late_p[loc_id] = random.uniform(0.05, 0.15)
+open_ids = [l[0] for l in locations_t2]
 
-employees = []
+
+def in_t2(loc_id):
+    """Rental point in T2: employees and cars of the closed one go to TAKEN_OVER_BY."""
+    return point[TAKEN_OVER_BY] if loc_id == point[CLOSED] else loc_id
+
+
+# ---------- employees ----------
+employees = []   # "loc" = rental point in T1 and in T2
 for loc in locations:
     for _ in range(4):
         name, surname, _ = random_person()
-        employees.append({"id": len(employees) + 1, "name": name, "surname": surname, "loc_t1": loc[0], "loc_t2": loc[0]})
+        employees.append({"id": len(employees) + 1, "name": name, "surname": surname, "loc": {1: loc[0], 2: in_t2(loc[0])}})
 
-# T2 changes: 3 employees moved to another rental point, 1 new employee in every rental point
+# T2 changes: 3 employees moved to another rental point, 1 new employee in every open rental point
 for e in random.sample(employees, 3):
-    e["loc_t2"] = random.choice([l[0] for l in locations if l[0] != e["loc_t1"]])
-t1_employee_count = len(employees)
-for loc in locations:
+    e["loc"][2] = random.choice([i for i in open_ids if i != e["loc"][2]])
+for loc_id in open_ids:
     name, surname, _ = random_person()
-    employees.append({"id": len(employees) + 1, "name": name, "surname": surname, "loc_t1": None, "loc_t2": loc[0]})
+    employees.append({"id": len(employees) + 1, "name": name, "surname": surname, "loc": {1: None, 2: loc_id}})
 
-employees_at = {1: {}, 2: {}}
+staff = {1: defaultdict(list), 2: defaultdict(list)}   # snapshot -> rental point -> employee ids
 for e in employees:
-    if e["loc_t1"]:
-        employees_at[1].setdefault(e["loc_t1"], []).append(e["id"])
-    employees_at[2].setdefault(e["loc_t2"], []).append(e["id"])
+    for t in (1, 2):
+        if e["loc"][t]:
+            staff[t][e["loc"][t]].append(e["id"])
 
 # ---------- clients (CEO Excel) ----------
-clients = []
-pesels = set()
-while len(clients) < max(100, ROWS // 20):
+CLIENTS = max(100, ROWS // 20)
+T1_CLIENTS = CLIENTS * (CUTOFF - START).days // (END - START).days   # same share as T1 in the whole period
+INACTIVE = T1_CLIENTS // 100   # T1 clients who never rent anything - removed from the sheet in T2
+
+clients, pesels = [], set()
+while len(clients) < CLIENTS:
     name, surname, male = random_person()
-    birth = date(1940, 1, 1) + timedelta(days=random.randint(0, 20800))
+    # every client is at least MIN_AGE on the first day they can rent: START for T1 clients, CUTOFF for new ones
+    first_day = START if len(clients) < T1_CLIENTS else CUTOFF
+    birth = first_day.replace(year=first_day.year - MIN_AGE) - timedelta(days=random.randint(0, 50 * 365))
     pesel = make_pesel(birth, male)
     if pesel in pesels:
         continue
     pesels.add(pesel)
     clients.append({"name": name, "surname": surname, "pesel": pesel, "birth": birth, "gender": "male" if male else "female",
-                    "licence": f"{random.randint(0, 99999):05d}/{random.randint(0, 99):02d}/{random.randint(0, 9999):04d}",
-                    "phone": str(random.randint(500000000, 899999999))})
-t1_clients = clients[: len(clients) * 55 // 100]
+                    "licence": new_licence(), "phone": new_phone()})
+renting = {1: clients[INACTIVE:T1_CLIENTS], 2: clients[INACTIVE:]}   # clients who rent in T1 / in T2
 
 # ---------- cars, rents and services ----------
-os.makedirs(os.path.join(OUT, "T1"), exist_ok=True)
-os.makedirs(os.path.join(OUT, "T2"), exist_ok=True)
-rent_t1 = open(os.path.join(OUT, "T1", "rent.bulk"), "w", newline="", encoding="cp1250")
-rent_new = open(os.path.join(OUT, "rent_new.tmp"), "w", newline="", encoding="cp1250")
+cars, plates = [], set()
+rents_t1, rents_new, services_t1, services_new = [], [], [], []   # ready .bulk lines without ids
+client_rents = defaultdict(list)   # pesel -> [(issued, returned)], so a client never has two cars at once
 
-cars = []
-plates = set()
-services_t1, services_new = [], []
-rents_t1_count, rents_count = 0, 0
-
-while rents_count < ROWS:
+while len(rents_t1) + len(rents_new) < ROWS:
     brand, model, car_type = random.choice(MODELS)
-    year = random.randint(2004, 2020)
-    loc = random.choice(locations)
+    year = random.randint(START.year - 3, END.year)
+    # a car is in the fleet from 1 January of its production year (or START) until END,
+    # so the warehouse can derive the days it was available from Car.year
+    start = max(START, date(year, 1, 1))
+    loc = random.choice(locations if start < CUTOFF else locations_t2)
     plate = f"{CITIES[loc[1]][0]} {random.randint(10000, 99999)}"
     if plate in plates:
         continue
     plates.add(plate)
+    km = random.randint(0, 50) + max(0, START.year - year) * random.randint(10000, 20000)
     price = BASE_PRICE[car_type] + random.randint(-20, 40)
-    start = START if year <= 2010 else date(year, random.randint(1, 12), 1)
-    km = random.randint(0, 50) + max(0, 2010 - year) * random.randint(10000, 20000)
     car = {"plate": plate, "brand": brand, "model": model, "color": random.choice(COLORS), "year": year,
-           "fuel": random.choice(FUELS), "type": car_type, "start": start, "km_t1": km,
-           "loc_t1": loc[0], "loc_t2": loc[0], "price_t1": price, "price_t2": price}
-    # T2 changes: some cars moved to another rental point or got a new daily price
+           "fuel": random.choice(FUELS), "type": car_type, "start": start,
+           "loc": {1: loc[0], 2: in_t2(loc[0])}, "price": {1: price, 2: price}, "km": {1: km, 2: km}}
+    # T2 changes for cars already in T1: moved to another rental point or a new daily price
     if start < CUTOFF and random.random() < 0.05:
-        car["loc_t2"] = random.choice([l[0] for l in locations if l[0] != loc[0]])
+        car["loc"][2] = random.choice([i for i in open_ids if i != car["loc"][2]])
     if start < CUTOFF and random.random() < 0.10:
-        car["price_t2"] = round(price * 1.1)
+        car["price"][2] = round(price * 1.1)
+    cars.append(car)
 
     day, last_km, last_service, problem = start, km, start, None
     while True:
-        if problem is None:
-            day += timedelta(days=random.randint(0, 3) if day.month in (6, 7, 8, 12) else random.randint(0, 8))
+        t = 1 if day < CUTOFF else 2
+        loc_id = car["loc"][t]
 
+        # routine service after 15 000 km or 12 months, accident / malfunction right after the rental
         if problem or km - last_km >= 15000 or (day - last_service).days >= 365:
             kind = problem or "routine"
             end = day + timedelta(days=random.randint(*SERVICE_DAYS[kind]))
             if end > END:
                 break
-            row = [plate, day.isoformat(), end.isoformat(), km, f"{random.randint(*SERVICE_COST[kind])}.00", kind,
-                   random.choice(DESCRIPTIONS[kind])]
-            (services_t1 if end < CUTOFF else services_new).append(row)
+            row = [plate, day, end, km, f"{random.randint(*SERVICE_COST[kind])}.00", kind, random.choice(DESCRIPTIONS[kind])]
+            (services_t1 if end < CUTOFF else services_new).append(line(row))
             day, last_km, last_service, problem = end + timedelta(days=1), km, end, None
             continue
 
         days = random.randint(1, 14)
-        late = random.randint(1, 3) if random.random() < 0.1 else 0
+        late = random.randint(1, 3) if random.random() < late_p[loc_id] else 0
         issued = datetime(day.year, day.month, day.day, random.randint(8, 17), random.choice([0, 15, 30, 45]))
         planned = issued + timedelta(days=days)
         actual = planned + timedelta(days=late)
         if actual.date() > END:
             break
 
-        period = 1 if day < CUTOFF else 2
-        client = random.choice(t1_clients if period == 1 else clients)
-        employee = random.choice(employees_at[period][car[f"loc_t{period}"]])
-        driven = (days + late) * random.randint(30, 250)
-        row = [client["pesel"], plate, employee, fmt(issued), fmt(planned), fmt(actual),
-               f"{(days + late) * car[f'price_t{period}']}.00", km, km + driven]
-        km += driven
-        rents_count += 1
-        if actual.date() < CUTOFF:
-            rents_t1_count += 1
-            rent_t1.write(line([rents_t1_count] + row))
-            car["km_t1"] = km
-        else:
-            rent_new.write(line(row))
+        for _ in range(1000):   # a client without another car at that time - practically always the first try
+            client = random.choice(renting[t])
+            if all(actual <= s or issued >= e for s, e in client_rents[client["pesel"]]):
+                break
+        client_rents[client["pesel"]].append((issued, actual))
 
-        day = actual.date() + timedelta(days=1)
+        driven = (days + late) * random.randint(30, 250)
+        # cost = daily price x actual number of days
+        row = [client["pesel"], plate, random.choice(staff[t][loc_id]), fmt(issued), fmt(planned), fmt(actual),
+               f"{(days + late) * car['price'][t]}.00", km, km + driven]
+        km += driven
+        car["km"][2] = km
+        if actual.date() < CUTOFF:
+            rents_t1.append(line(row))
+            car["km"][1] = km
+        else:
+            rents_new.append(line(row))
+
         r = random.random()
         problem = "accident" if r < 0.01 else "malfunction" if r < 0.03 else None
+        # next customer after an idle time that depends on the rental point; shorter in summer and in December
+        idle = 0 if problem else random.randint(0, idle_max[loc_id]) // (2 if day.month in (6, 7, 8, 12) else 1)
+        day = actual.date() + timedelta(days=1 + idle)
 
-    car["km_t2"] = km
-    cars.append(car)
-
-rent_t1.close()
-rent_new.close()
-
-# T2 rents = T1 rents + new rents with next ids
-shutil.copyfile(os.path.join(OUT, "T1", "rent.bulk"), os.path.join(OUT, "T2", "rent.bulk"))
-with open(os.path.join(OUT, "rent_new.tmp"), newline="", encoding="cp1250") as src, \
-        open(os.path.join(OUT, "T2", "rent.bulk"), "a", newline="", encoding="cp1250") as dst:
-    for i, row in enumerate(src, start=rents_t1_count + 1):
-        dst.write(f"{i}|{row}")
-os.remove(os.path.join(OUT, "rent_new.tmp"))
-
-# T2 changes in CEO Excel: some clients changed phone number, some women changed surname
-t2_clients = [dict(c) for c in clients]
-for c in t2_clients[: len(t1_clients)]:
+# T2 changes in CEO Excel: inactive clients removed, some clients have a new phone number or driving licence,
+# some women a new surname
+t2_clients = [dict(c) for c in renting[2]]
+for c in t2_clients[:T1_CLIENTS - INACTIVE]:
     if random.random() < 0.03:
-        c["phone"] = str(random.randint(500000000, 899999999))
+        c["phone"] = new_phone()
+    if random.random() < 0.02:
+        c["licence"] = new_licence()
     if c["gender"] == "female" and random.random() < 0.02:
-        c["surname"] = random.choice(SURNAMES)[1]
+        c["surname"] = random.choice([s[1] for s in SURNAMES if s[1] != c["surname"]])
 
-# ---------- write snapshots ----------
-services_t2 = services_t1 + services_new
-
-for snapshot, t in (("T1", 1), ("T2", 2)):
-    folder = os.path.join(OUT, snapshot)
-    write_bulk(os.path.join(folder, "location.bulk"), locations)
-    write_bulk(os.path.join(folder, "employee.bulk"),
-               [[e["id"], e["name"], e["surname"], e[f"loc_t{t}"]] for e in employees[: t1_employee_count if t == 1 else None]])
-    write_bulk(os.path.join(folder, "car.bulk"),
-               [[c["plate"], c[f"loc_t{t}"], c["brand"], c["model"], c["color"], c[f"km_t{t}"], f"{c[f'price_t{t}']}.00",
-                 c["year"], c["fuel"], c["type"]] for c in cars if t == 2 or c["start"] < CUTOFF])
-    write_bulk(os.path.join(folder, "service.bulk"),
-               [[i] + s for i, s in enumerate(services_t1 if t == 1 else services_t2, start=1)])
-    write_excel(os.path.join(folder, "clients.xlsx"), t1_clients if t == 1 else t2_clients,
+# ---------- write snapshots (T2 rents and services = T1 rows with the same ids + new rows) ----------
+for t, snapshot in ((1, "T1"), (2, "T2")):
+    folder = OUT / snapshot
+    folder.mkdir(parents=True, exist_ok=True)
+    write_lines(folder / "location.bulk", map(line, locations if t == 1 else locations_t2))
+    write_lines(folder / "employee.bulk", (line([e["id"], e["name"], e["surname"], e["loc"][t]])
+                                           for e in employees if e["loc"][t]))
+    write_lines(folder / "car.bulk", (line([c["plate"], c["loc"][t], c["brand"], c["model"], c["color"], c["km"][t],
+                                            f"{c['price'][t]}.00", c["year"], c["fuel"], c["type"]])
+                                      for c in cars if t == 2 or c["start"] < CUTOFF))
+    write_numbered(folder / "service.bulk", services_t1 if t == 1 else services_t1 + services_new)
+    write_numbered(folder / "rent.bulk", rents_t1 if t == 1 else rents_t1 + rents_new)
+    write_excel(folder / "clients.xlsx", clients[:T1_CLIENTS] if t == 1 else t2_clients,
                 CUTOFF - timedelta(days=1) if t == 1 else END)
 
-print(f"T1: {rents_t1_count} rents, {len(services_t1)} services, {len(t1_clients)} clients")
-print(f"T2: {rents_count} rents, {len(services_t2)} services, {len(clients)} clients, {len(cars)} cars")
+print(f"T1: {len(rents_t1)} rents, {len(services_t1)} services, {T1_CLIENTS} clients")
+print(f"T2: {len(rents_t1) + len(rents_new)} rents, {len(services_t1) + len(services_new)} services, "
+      f"{len(t2_clients)} clients, {len(cars)} cars")
