@@ -1,6 +1,6 @@
 USE RentMaster;
 
-DECLARE @snapshot VARCHAR(2) = 'T2';
+DECLARE @snapshot VARCHAR(2) = 'T1';
 
 DECLARE @path VARCHAR(100) = '/generator/output/' + @snapshot + '/';
 DECLARE @options VARCHAR(200) = ''' WITH (FIELDTERMINATOR = ''|'', ROWTERMINATOR = ''0x0a'', CODEPAGE = ''RAW'', KEEPIDENTITY, CHECK_CONSTRAINTS, TABLOCK)';
