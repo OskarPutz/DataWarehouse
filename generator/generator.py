@@ -1,3 +1,14 @@
+# Data generator for RentMaster (.bulk files for BULK INSERT, columns separated by |) and CEO Excel (clients.xlsx).
+# T1 = START..CUTOFF-1 (2020-2025), T2 = START..END (2020-2026).
+# T2 = T1 + new rows + changed rows + deleted rows:
+#  - rental points: one is closed, one moves to a new address,
+#  - employees: some move to another rental point (everyone from the closed one too), new employees,
+#  - cars: some move to another rental point, new daily prices, current mileage, new cars,
+#  - clients: new phone numbers, driving licences and surnames, new clients.
+# Employees and cars are never deleted - old rents and services refer to them.
+# A client is entered into the CEO Excel sheet with their first rent, so every client in the sheet has rented a car.
+# Usage: python generator.py [number_of_rents]
+
 import random
 import sys
 from collections import defaultdict
@@ -143,8 +154,7 @@ for e in employees:
 
 # ---------- clients (CEO Excel) ----------
 CLIENTS = max(100, ROWS // 20)
-T1_CLIENTS = CLIENTS * (CUTOFF - START).days // (END - START).days   # same share as T1 in the whole period
-INACTIVE = T1_CLIENTS // 100   # T1 clients who never rent anything - removed from the sheet in T2
+T1_CLIENTS = CLIENTS * (CUTOFF - START).days // (END - START).days   # can rent from START, the rest from CUTOFF
 
 clients, pesels = [], set()
 while len(clients) < CLIENTS:
@@ -158,7 +168,7 @@ while len(clients) < CLIENTS:
     pesels.add(pesel)
     clients.append({"name": name, "surname": surname, "pesel": pesel, "birth": birth, "gender": "male" if male else "female",
                     "licence": new_licence(), "phone": new_phone()})
-renting = {1: clients[INACTIVE:T1_CLIENTS], 2: clients[INACTIVE:]}   # clients who rent in T1 / in T2
+renting = {1: clients[:T1_CLIENTS], 2: clients}   # clients who can rent in T1 / in T2
 
 # ---------- cars, rents and services ----------
 cars, plates = [], set()
@@ -236,10 +246,12 @@ while len(rents_t1) + len(rents_new) < ROWS:
         idle = 0 if problem else random.randint(0, idle_max[loc_id]) // (2 if day.month in (6, 7, 8, 12) else 1)
         day = actual.date() + timedelta(days=1 + idle)
 
-# T2 changes in CEO Excel: inactive clients removed, some clients have a new phone number or driving licence,
-# some women a new surname
-t2_clients = [dict(c) for c in renting[2]]
-for c in t2_clients[:T1_CLIENTS - INACTIVE]:
+# CEO Excel: a client is in the sheet from their first rent (T2 rows are copies, so T2 changes do not touch T1)
+excel = {1: [c for c in clients if any(s.date() < CUTOFF for s, _ in client_rents[c["pesel"]])],
+         2: [dict(c) for c in clients if client_rents[c["pesel"]]]}
+
+# T2 changes in CEO Excel: some clients have a new phone number or driving licence, some women a new surname
+for c in excel[2]:
     if random.random() < 0.03:
         c["phone"] = new_phone()
     if random.random() < 0.02:
@@ -259,9 +271,8 @@ for t, snapshot in ((1, "T1"), (2, "T2")):
                                       for c in cars if t == 2 or c["start"] < CUTOFF))
     write_numbered(folder / "service.bulk", services_t1 if t == 1 else services_t1 + services_new)
     write_numbered(folder / "rent.bulk", rents_t1 if t == 1 else rents_t1 + rents_new)
-    write_excel(folder / "clients.xlsx", clients[:T1_CLIENTS] if t == 1 else t2_clients,
-                CUTOFF - timedelta(days=1) if t == 1 else END)
+    write_excel(folder / "clients.xlsx", excel[t], CUTOFF - timedelta(days=1) if t == 1 else END)
 
-print(f"T1: {len(rents_t1)} rents, {len(services_t1)} services, {T1_CLIENTS} clients")
+print(f"T1: {len(rents_t1)} rents, {len(services_t1)} services, {len(excel[1])} clients")
 print(f"T2: {len(rents_t1) + len(rents_new)} rents, {len(services_t1) + len(services_new)} services, "
-      f"{len(t2_clients)} clients, {len(cars)} cars")
+      f"{len(excel[2])} clients, {len(cars)} cars")
