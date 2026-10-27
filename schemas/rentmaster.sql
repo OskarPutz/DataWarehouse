@@ -1,14 +1,3 @@
-/*
-    RentMaster — relational source for the SigmaPol Rental "Rent" process.
-
-    Names follow Requirements specification for the Rent business process.
-    Clients are not stored here. Rent.client_PESEL is the business key shared
-    with the CEO Excel sheet (schemas/ceo_excel/clients.xlsx, column PESEL).
-
-    SQL Server has no YEAR type, so car_year is SMALLINT (YYYY).
-    Amounts are PLN, stored as DECIMAL(12,2). The specification says DECIMAL.
-    The database collation is Polish_CI_AS so VARCHAR can hold Polish letters.
-*/
 
 IF DB_ID(N'RentMaster') IS NULL
 BEGIN
