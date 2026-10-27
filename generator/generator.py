@@ -1,13 +1,3 @@
-# Data generator for RentMaster (.bulk files for BULK INSERT, columns separated by |) and CEO Excel (clients.xlsx).
-# T1 = START..CUTOFF-1 (2020-2025), T2 = START..END (2020-2026).
-# T2 = T1 + new rows + changed rows + deleted rows:
-#  - rental points: one is closed, one moves to a new address,
-#  - employees: some move to another rental point (everyone from the closed one too), new employees,
-#  - cars: some move to another rental point, new daily prices, current mileage, new cars,
-#  - clients: new phone numbers, driving licences and surnames, new clients, inactive clients removed.
-# Employees and cars are never deleted - old rents and services refer to them.
-# Usage: python generator.py [number_of_rents]
-
 import random
 import sys
 from collections import defaultdict
