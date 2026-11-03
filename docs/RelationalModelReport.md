@@ -1,8 +1,8 @@
 ---
-title: "Data warehouses: SigmaPol Rental Data Warehouse - relational design"
+Task 3: "SigmaPol Data Warehouse - relational design"
 ---
 
-**Author:** Oskar Putz
+**Authors:** Oskar Putz, Łukasz Gajkowski
 
 # 1. Business Process
 
