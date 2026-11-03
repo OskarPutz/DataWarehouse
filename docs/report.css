@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  line-height: 1.4;
+  max-width: 17cm;
+  margin: 0 auto;
+}
+
+header h1.title {
+  font-size: 20pt;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+}
+
+h1 {
+  font-size: 15pt;
+  margin-top: 1.4em;
+}
+
+h2 {
+  font-size: 13pt;
+  margin-top: 1.2em;
+}
+
+p strong:only-child {
+  display: inline-block;
+  margin-top: 0.6em;
+}
+
+ul {
+  margin-top: 0.2em;
+}
+
+li {
+  margin-bottom: 0.15em;
+}
+
+@page {
+  size: A4;
+  margin: 2cm;
+}
