@@ -1,5 +1,5 @@
 ---
-Task 3: "SigmaPol Data Warehouse - relational design"
+title: "Task 3: SigmaPol Data Warehouse - relational design"
 ---
 
 **Authors:** Oskar Putz, Łukasz Gajkowski
