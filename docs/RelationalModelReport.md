@@ -11,68 +11,58 @@ process, whose data is needed to calculate the idle time and the utilization rat
 are described in the documents *Specification of business processes in SigmaPol Rental network* and
 *Requirements specification for Rent business process*.
 
-The data warehouse uses a **constellation schema**: three fact tables (RENT, SERVICE and CAR_STATUS) share
-the dimensions CAR, DATE and JUNK-type dimensions. The dimensions CAR and EMPLOYEE are snowflaked with the
-dimension LOCATION.
+Client's satisfaction with a rented car is taken from the post-rental survey proposed in the requirements
+specification (Survey Excel source).
+
+The data warehouse uses a **snowflake schema** with one fact table, CAR_DAY. The dimensions CAR and
+EMPLOYEE are snowflaked with the dimension LOCATION.
 
 # 2. Relational Database Schema / Tables Specification
 
-## Fact Tables
+## Fact Table
 
-**RENT (Fact Table)**
+**CAR_DAY (Fact Table)**
 
-One tuple describes one fact of renting one car by one client, from its issuance to its return.
-
-- **Id_IssueDate (Numeric, FK Date):** Rent issue date.
-- **Id_IssueTime (Numeric, FK Time):** Rent issue time.
-- **Id_PlannedReturnDate (Numeric, FK Date):** Planned return date.
-- **Id_ReturnDate (Numeric, FK Date):** Actual return date.
-- **Id_ReturnTime (Numeric, FK Time):** Actual return time.
-- **Id_Car (Numeric, FK Car):** Rented car.
-- **Id_Employee (Numeric, FK Employee):** Employee who handled the rent.
-- **Id_Client (Numeric, FK Client):** Client who rented the car.
-- **Id_Junk (Numeric, FK Junk_Rent):** Junk attributes of the rent.
-- **RentNo (Numeric):** Rent number.
-- **Cost (Money):** Total cost of the rent paid by the client.
-- **RentalDays (Numeric):** Number of days the car was rented (from issue to actual return).
-- **PlannedDays (Numeric):** Number of days the car was planned to be rented.
-- **DelayDays (Numeric):** Number of days the car was returned after the planned return date (0 if on time).
-- **KmDriven (Numeric):** Number of kilometres driven during the rent.
-- **MileageBefore (Numeric):** Mileage of the car before the rent in km.
-- **MileageAfter (Numeric):** Mileage of the car after the rent in km.
-
-**SERVICE (Fact Table)**
-
-One tuple describes one fact of servicing one car in a workshop.
-
-- **Id_StartDate (Numeric, FK Date):** Date of the car's arrival in the service.
-- **Id_EndDate (Numeric, FK Date):** Date of the car's return from the service.
-- **Id_Car (Numeric, FK Car):** Serviced car.
-- **Id_Junk (Numeric, FK Junk_Service):** Junk attributes of the service.
-- **ServiceNo (Numeric):** Service number.
-- **Cost (Money):** Total cost of the service.
-- **ServiceDays (Numeric):** Number of days the car was unavailable because of the service.
-- **Mileage (Numeric):** Mileage of the car at the moment of the service in km.
-- **KmSinceLastService (Numeric):** Number of kilometres driven since the previous service of the car.
-- **DaysSinceLastService (Numeric):** Number of days since the previous service of the car.
-
-**CAR_STATUS (Fact Table)**
-
-One tuple describes the status of one car of the fleet on one day (periodic snapshot). The table makes it
-possible to calculate the utilization rate and the number of idle days for any period.
+One tuple describes the state of one car of the fleet on one day: whether the car was rented, in the service
+or idle. The rent and the service starting on this day are also described in this tuple (the values for a
+rent or a service are stored only in the tuple of the day it starts, so they are not counted twice).
 
 - **Id_Date (Numeric, FK Date):** Day described by the tuple.
 - **Id_Car (Numeric, FK Car):** Car described by the tuple.
 - **Id_Employee (Numeric, FK Employee):** Employee who handled the rent the car is in on this day
   (special tuple "not rented" if the car is not rented).
-- **Id_Client (Numeric, FK Client):** Client who rents the car on this day
-  (special tuple "not rented" if the car is not rented).
-- **Id_Junk (Numeric, FK Junk_CarStatus):** Junk attributes of the car on this day.
+- **Id_Client (Numeric, FK Client):** Client who rents the car on this day (special tuple "not rented" if
+  the car is not rented).
+- **Id_IssueTime (Numeric, FK Time):** Issue time of the rent starting on this day (special tuple "no rent"
+  if no rent starts on this day).
+- **Id_Junk (Numeric, FK Junk):** Junk attributes.
+- **RentNo (Numeric):** Number of the rent the car is in on this day (empty if the car is not rented).
+- **ServiceNo (Numeric):** Number of the service the car is in on this day (empty if the car is not in the
+  service).
 - **RentedDay (Numeric):** 1 if the car is rented on this day, otherwise 0.
 - **ServiceDay (Numeric):** 1 if the car is in the service on this day, otherwise 0.
-- **AvailableDay (Numeric):** 1 if the car is available for rental on this day (not in the service), otherwise 0.
+- **AvailableDay (Numeric):** 1 if the car is available for rental on this day (not in the service),
+  otherwise 0.
 - **IdleDay (Numeric):** 1 if the car is available but not rented on this day, otherwise 0.
 - **Mileage (Numeric):** Mileage of the car at the beginning of the day in km.
+- **KmDriven (Numeric):** Number of kilometres driven on this day (km of the rent divided by its days).
+- **RentStarted (Numeric):** 1 if a rent of the car is issued on this day, otherwise 0.
+- **RentCost (Money):** Total cost of the rent issued on this day (0 if no rent is issued).
+- **RentalDays (Numeric):** Number of days of the rent issued on this day (0 if no rent is issued).
+- **DelayDays (Numeric):** Number of days the rent issued on this day was returned after the planned
+  return date (0 if on time or no rent is issued).
+- **ServiceStarted (Numeric):** 1 if a service of the car starts on this day, otherwise 0.
+- **ServiceCost (Money):** Total cost of the service starting on this day (0 if no service starts).
+- **KmSinceLastService (Numeric):** Number of kilometres driven since the previous service, for the service
+  starting on this day (0 if no service starts).
+- **SurveyAnswered (Numeric):** 1 if the client answered the post-rental survey for the rent issued on this
+  day, otherwise 0.
+- **CarConditionRating (Numeric):** Client's rating of the overall condition of the car (values from 1 to 5)
+  for the rent issued on this day (0 if the survey was not answered).
+- **IssuesReported (Numeric):** 1 if the client experienced mechanical issues during the rent issued on
+  this day, otherwise 0.
+- **LikelihoodToRentAgain (Numeric):** How likely the client is to rent this car model again (values from
+  1 to 5) for the rent issued on this day (0 if the survey was not answered).
 
 ## Dimension Tables
 
@@ -116,7 +106,7 @@ One tuple describes one employee working in the specified rental point.
 - **NameAndSurname (Varchar(50)):** Name and surname.
 - **IsCurrent (Boolean):** 1 if information is current, otherwise 0 (SCD2 implementation).
 
-The table contains one special tuple "not rented" used by CAR_STATUS for days when the car is not rented.
+The table contains one special tuple "not rented" used for days when the car is not rented.
 
 **CLIENT (Dimension Table)**
 
@@ -132,7 +122,7 @@ One tuple describes one client in the specified age category.
 - **AgeCategory (Varchar(10)):** Age category. Allowed values: 18-24, 25-34, 35-44, 45-54, 55-64, 65+.
 - **IsCurrent (Boolean):** 1 if information is current, otherwise 0 (SCD2 implementation).
 
-The table contains one special tuple "not rented" used by CAR_STATUS for days when the car is not rented.
+The table contains one special tuple "not rented" used for days when the car is not rented.
 
 **DATE (Dimension Table)**
 
@@ -164,32 +154,22 @@ One tuple describes one hour (independent of date).
 - **TimeOfDay (Varchar(20)):** Time of day. Allowed values: between 0 and 8, between 9 and 12,
   between 13 and 15, between 16 and 20, between 21 and 23.
 
-**JUNK_RENT (Dimension Table)**
+The table contains one special tuple "no rent" used for days when no rent is issued.
 
-The tuples correspond to all possible combinations of values for ReturnStatus and RentalLength.
+**JUNK (Dimension Table)**
 
-- **Id_Junk (Numeric, PK):** Junk identifier.
-- **ReturnStatus (Varchar(10)):** Return status of the rent. Allowed values: on time, late.
-- **RentalLength (Varchar(20)):** Length of the rent. Allowed values: 1 to 3 days, 4 to 7 days,
-  8 to 14 days, more than 14 days.
-
-**JUNK_SERVICE (Dimension Table)**
-
-The tuples correspond to all possible combinations of values for ServiceType and CarAgeCategory
-(ServiceKind results from ServiceType).
+The tuples correspond to all possible combinations of values for ReturnStatus, RentalLength, ServiceType,
+MileageCategory and CarAgeCategory (ServiceKind results from ServiceType).
 
 - **Id_Junk (Numeric, PK):** Junk identifier.
-- **ServiceType (Varchar(15)):** Type of the service. Allowed values: routine, accident, malfunction.
+- **ReturnStatus (Varchar(10)):** Return status of the rent the car is in. Allowed values: on time, late,
+  not rented.
+- **RentalLength (Varchar(20)):** Length of the rent the car is in. Allowed values: 1 to 3 days,
+  4 to 7 days, 8 to 14 days, more than 14 days, not rented.
+- **ServiceType (Varchar(15)):** Type of the service the car is in. Allowed values: routine, accident,
+  malfunction, none.
 - **ServiceKind (Varchar(15)):** Kind of the service. Allowed values: planned (routine), unexpected
-  (accident, malfunction).
-- **CarAgeCategory (Varchar(20)):** Age of the car at the moment of the service. Allowed values:
-  up to 1 year, 1 to 3 years, 3 to 5 years, over 5 years.
-
-**JUNK_CARSTATUS (Dimension Table)**
-
-The tuples correspond to all possible combinations of values for MileageCategory and CarAgeCategory.
-
-- **Id_Junk (Numeric, PK):** Junk identifier.
+  (accident, malfunction), none.
 - **MileageCategory (Varchar(25)):** Mileage of the car on the day. Allowed values: up to 50 000 km,
   50 000 to 100 000 km, 100 000 to 200 000 km, over 200 000 km.
 - **CarAgeCategory (Varchar(20)):** Age of the car on the day. Allowed values: up to 1 year, 1 to 3 years,
@@ -207,86 +187,68 @@ data warehouse contains the following hierarchies:
 # 3. Checking Data Availability in Data Sources (ETL Mapping)
 
 The data sources are the **RentMaster** relational database (tables Rent, Car, Employee, Location and
-Service) and the **CEO Excel** file (Sheet 1, information about clients).
+Service), the **CEO Excel** file (Sheet 1, information about clients) and the **Survey Excel** file (results
+of the post-rental survey proposed in the requirements specification, one row per rent: column A rent_id,
+column B car_condition_rating, column C experienced_issues, column D likelihood_to_rent_again, column E
+additional_comments).
 
-**RENT**
+**CAR_DAY**
 
-- **Id_IssueDate:** Foreign key from dimension table. Based on date_issued stored in Rent table in
-  RentMaster source.
-- **Id_IssueTime:** Foreign key from dimension table. Based on the hour of date_issued stored in Rent table
-  in RentMaster source.
-- **Id_PlannedReturnDate:** Foreign key from dimension table. Based on date_returned_planned stored in Rent
-  table in RentMaster source.
-- **Id_ReturnDate:** Foreign key from dimension table. Based on date_returned_actual stored in Rent table in
-  RentMaster source.
-- **Id_ReturnTime:** Foreign key from dimension table. Based on the hour of date_returned_actual stored in
-  Rent table in RentMaster source.
-- **Id_Car:** Foreign key from dimension table. Based on car_licence_plate in Rent table in RentMaster source
-  and the version of the car (rental point, price category) valid at date_issued.
-- **Id_Employee:** Foreign key from dimension table. Based on employee_id in Rent table in RentMaster source
-  and the version of the employee (rental point) valid at date_issued.
-- **Id_Client:** Foreign key from dimension table. Based on client_PESEL in Rent table in RentMaster source
-  and the age category of the client at date_issued (calculated from the date of birth encoded in PESEL).
-- **Id_Junk:** Foreign key from dimension table. Based on date_returned_planned, date_returned_actual and
-  date_issued in Rent table in RentMaster source.
-- **RentNo:** Taken from rent_id column in Rent table in RentMaster source.
-- **Cost:** Taken from cost column in Rent table in RentMaster source.
-- **RentalDays:** Calculated as the number of days between date_issued and date_returned_actual in Rent
-  table in RentMaster source.
-- **PlannedDays:** Calculated as the number of days between date_issued and date_returned_planned in Rent
-  table in RentMaster source.
-- **DelayDays:** Calculated as the number of days between date_returned_planned and date_returned_actual in
-  Rent table in RentMaster source (0 if the car was returned on time).
-- **KmDriven:** Calculated as the difference between mileage_after and mileage_before in Rent table in
-  RentMaster source.
-- **MileageBefore:** Taken from mileage_before column in Rent table in RentMaster source.
-- **MileageAfter:** Taken from mileage_after column in Rent table in RentMaster source.
-
-**SERVICE**
-
-- **Id_StartDate:** Foreign key from dimension table. Based on start_date stored in Service table in
-  RentMaster source.
-- **Id_EndDate:** Foreign key from dimension table. Based on end_date stored in Service table in RentMaster
-  source.
-- **Id_Car:** Foreign key from dimension table. Based on car_licence_plate in Service table in RentMaster
-  source and the version of the car valid at start_date.
-- **Id_Junk:** Foreign key from dimension table. Based on type in Service table and the age of the car
-  calculated from car_year in Car table and start_date in Service table in RentMaster source.
-- **ServiceNo:** Taken from service_id column in Service table in RentMaster source.
-- **Cost:** Taken from cost column in Service table in RentMaster source.
-- **ServiceDays:** Calculated as the number of days between start_date and end_date in Service table in
-  RentMaster source.
-- **Mileage:** Taken from mileage column in Service table in RentMaster source.
-- **KmSinceLastService:** Calculated as the difference between mileage of the service and mileage of the
-  previous service of the same car in Service table in RentMaster source (for the first service: the
-  difference to mileage_before of the first rent of the car in Rent table).
-- **DaysSinceLastService:** Calculated as the number of days between start_date of the service and
-  end_date of the previous service of the same car in Service table in RentMaster source (for the first
-  service: the number of days since the car entered the fleet).
-
-**CAR_STATUS**
-
-The tuples are generated for every car and every day the car is in the fleet: from 1 January of
-car_year (or the first day of data) in Car table to the last day of data.
+The tuples are generated for every car and every day the car is in the fleet: from 1 January of car_year
+(or the first day of data) in Car table to the last day of data. "The rent covering the day" is the rent of
+the car from Rent table with date_issued (inclusive) ≤ day < date_returned_actual (exclusive), "the service
+covering the day" is the service of the car from Service table with start_date ≤ day ≤ end_date.
 
 - **Id_Date:** Foreign key from dimension table. Generated day by day.
 - **Id_Car:** Foreign key from dimension table. Based on licence_plate in Car table in RentMaster source and
-  the version of the car valid on the day.
-- **Id_Employee:** Foreign key from dimension table. Based on employee_id of the rent from Rent table in
-  RentMaster source covering the day (special tuple "not rented" if there is no such rent).
-- **Id_Client:** Foreign key from dimension table. Based on client_PESEL of the rent from Rent table in
-  RentMaster source covering the day (special tuple "not rented" if there is no such rent).
-- **Id_Junk:** Foreign key from dimension table. Based on Mileage of the tuple and the age of the car
-  calculated from car_year in Car table in RentMaster source and the day.
-- **RentedDay:** 1 if the day is between date_issued (inclusive) and date_returned_actual (exclusive) of
-  any rent of the car in Rent table in RentMaster source, otherwise 0.
-- **ServiceDay:** 1 if the day is between start_date and end_date (inclusive) of any service of the car in
-  Service table in RentMaster source, otherwise 0.
+  the version of the car (rental point, price category) valid on the day.
+- **Id_Employee:** Foreign key from dimension table. Based on employee_id of the rent covering the day in
+  Rent table in RentMaster source and the version of the employee valid on the day ("not rented" if there
+  is no such rent).
+- **Id_Client:** Foreign key from dimension table. Based on client_PESEL of the rent covering the day in
+  Rent table in RentMaster source and the age category of the client on the day ("not rented" if there is
+  no such rent).
+- **Id_IssueTime:** Foreign key from dimension table. Based on the hour of date_issued of the rent issued on
+  the day in Rent table in RentMaster source ("no rent" if there is no such rent).
+- **Id_Junk:** Foreign key from dimension table. Based on date_returned_planned and date_returned_actual of
+  the rent covering the day in Rent table, type of the service covering the day in Service table, Mileage
+  of the tuple, and the age of the car calculated from car_year in Car table in RentMaster source and the
+  day.
+- **RentNo:** Taken from rent_id of the rent covering the day in Rent table in RentMaster source.
+- **ServiceNo:** Taken from service_id of the service covering the day in Service table in RentMaster
+  source.
+- **RentedDay:** 1 if there is a rent covering the day in Rent table in RentMaster source, otherwise 0.
+- **ServiceDay:** 1 if there is a service covering the day in Service table in RentMaster source,
+  otherwise 0.
 - **AvailableDay:** Calculated as 1 − ServiceDay.
 - **IdleDay:** Calculated as AvailableDay − RentedDay.
 - **Mileage:** Based on mileage_before and mileage_after in Rent table in RentMaster source: mileage_before
   of the rent covering the day, otherwise mileage_after of the last finished rent of the car (for days
   before the first rent: mileage_before of the first rent).
+- **KmDriven:** Calculated for the rent covering the day as (mileage_after − mileage_before) divided by the
+  number of days between date_issued and date_returned_actual in Rent table in RentMaster source.
+- **RentStarted:** 1 if date_issued of a rent of the car in Rent table in RentMaster source is the day,
+  otherwise 0.
+- **RentCost:** Taken from cost column of the rent issued on the day in Rent table in RentMaster source.
+- **RentalDays:** Calculated as the number of days between date_issued and date_returned_actual of the rent
+  issued on the day in Rent table in RentMaster source.
+- **DelayDays:** Calculated as the number of days between date_returned_planned and date_returned_actual of
+  the rent issued on the day in Rent table in RentMaster source (0 if the car was returned on time).
+- **ServiceStarted:** 1 if start_date of a service of the car in Service table in RentMaster source is the
+  day, otherwise 0.
+- **ServiceCost:** Taken from cost column of the service starting on the day in Service table in RentMaster
+  source.
+- **KmSinceLastService:** Calculated as the difference between mileage of the service starting on the day
+  and mileage of the previous service of the same car in Service table in RentMaster source (for the first
+  service: the difference to mileage_before of the first rent of the car in Rent table).
+- **SurveyAnswered:** 1 if column A (rent_id) of Survey Excel source contains rent_id of the rent issued on
+  the day, otherwise 0.
+- **CarConditionRating:** Taken from column B (car_condition_rating) of Survey Excel source for the rent
+  issued on the day.
+- **IssuesReported:** Taken from column C (experienced_issues) of Survey Excel source for the rent issued on
+  the day (yes → 1, no → 0).
+- **LikelihoodToRentAgain:** Taken from column D (likelihood_to_rent_again) of Survey Excel source for the
+  rent issued on the day.
 
 **CAR SCD 2**
 
@@ -340,7 +302,7 @@ car_year (or the first day of data) in Car table to the last day of data.
 - **NameAndSurname:** Taken from columns A and B of Sheet 1 in CEO Excel source.
 - **Gender:** Taken from column E of Sheet 1 in CEO Excel source.
 - **DateOfBirth:** Calculated from column C (PESEL) of Sheet 1 in CEO Excel source (first 6 digits).
-- **AgeCategory:** Calculated from DateOfBirth and the date of the rent.
+- **AgeCategory:** Calculated from DateOfBirth and the day.
 - **IsCurrent:** '1' if information is current, otherwise '0'. A new tuple is created when the client moves
   to the next age category.
 
@@ -349,15 +311,14 @@ car_year (or the first day of data) in Car table to the last day of data.
 - **DATE:** Generated tuple by tuple based on calendar prior to ETL. Holiday, BeforeHolidayDay and Vacation
   are based on the public calendar of Polish public holidays and school holidays (e.g. Google Calendar).
 - **TIME:** Generated tuple by tuple based on clock prior to ETL.
-- **JUNK_RENT:** Generated with all combinations of ReturnStatus and RentalLength prior to ETL.
-- **JUNK_SERVICE:** Generated with all combinations of ServiceType and CarAgeCategory prior to ETL
-  (ServiceKind: 'planned' for routine, 'unexpected' for accident and malfunction).
-- **JUNK_CARSTATUS:** Generated with all combinations of MileageCategory and CarAgeCategory prior to ETL.
+- **JUNK:** Generated with all combinations of ReturnStatus, RentalLength, ServiceType, MileageCategory and
+  CarAgeCategory prior to ETL (ServiceKind: 'planned' for routine, 'unexpected' for accident and
+  malfunction, 'none' if there is no service).
 
-**Data not available in data sources**
+**Data not loaded into the data warehouse**
 
-- Client's satisfaction with a rented car (analytical question 1.6) is not stored in any data source.
-  It requires introducing the post-rental survey described in the requirements specification.
+- Additional comments (column E of Survey Excel source) are free text and are not needed for any
+  analytical question.
 - Client's phone number and driver's licence number (columns F and G of Sheet 1 in CEO Excel source) are
   available, but they are not needed for any analytical question, so they are not loaded into the data
   warehouse.
