@@ -35,6 +35,19 @@ li {
   margin-bottom: 0.15em;
 }
 
+table {
+  border-collapse: collapse;
+  font-size: 9.5pt;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 3px 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
 @page {
   size: A4;
   margin: 2cm;
