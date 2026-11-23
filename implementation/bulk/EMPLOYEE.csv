@@ -1,0 +1,11 @@
+LocationName,EmployeeNo,Name,Surname,NameAndSurname,IsCurrent
+,0,not rented,not rented,not rented,1
+SigmaPol Warszawa Mokotów,1,Jan,Nowak,Jan Nowak,1
+SigmaPol Warszawa Mokotów,2,Anna,Kowalska,Anna Kowalska,1
+SigmaPol Warszawa Wola,3,Piotr,Wiœniewski,Piotr Wiœniewski,1
+SigmaPol Warszawa Wola,4,Ewa,D¹browska,Ewa D¹browska,1
+SigmaPol Kraków Nowa Huta,5,Katarzyna,Wójcik,Katarzyna Wójcik,1
+SigmaPol Bydgoszcz Fordon,6,Magdalena,Zieliñska,Magdalena Zieliñska,0
+SigmaPol Bydgoszcz Œródmieœcie,6,Magdalena,Zieliñska,Magdalena Zieliñska,1
+SigmaPol Bydgoszcz Œródmieœcie,7,£ukasz,Mazur,£ukasz Mazur,1
+SigmaPol Kraków Nowa Huta,8,Tomasz,Kamiñski,Tomasz Kamiñski,1

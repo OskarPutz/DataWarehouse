@@ -1,0 +1,84 @@
+USE SigmaPolDW;
+GO
+
+-- ===================== Facts indexes =====================
+
+-- Clustered columnstore index: CAR_DAY is a large table read by aggregations over few columns.
+-- ORDER requires SQL Server 2022+; rows ordered by day let queries filtered by date skip whole rowgroups.
+IF NOT EXISTS (
+	SELECT 1
+	FROM sys.indexes
+	WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY')
+	  AND name = N'CCI_CAR_DAY'
+)
+	CREATE CLUSTERED COLUMNSTORE INDEX CCI_CAR_DAY ON dbo.CAR_DAY ORDER (Id_Date);
+GO
+
+-- ===================== Fact Car_day foreign keys ======================
+
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE parent_object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'FK_CAR_DAY_DATE')
+	ALTER TABLE dbo.CAR_DAY ADD CONSTRAINT FK_CAR_DAY_DATE FOREIGN KEY (Id_Date) REFERENCES dbo.[DATE] (Id_Date);
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE parent_object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'FK_CAR_DAY_CAR')
+	ALTER TABLE dbo.CAR_DAY ADD CONSTRAINT FK_CAR_DAY_CAR FOREIGN KEY (Id_Car) REFERENCES dbo.CAR (Id_Car);
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE parent_object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'FK_CAR_DAY_EMPLOYEE')
+	ALTER TABLE dbo.CAR_DAY ADD CONSTRAINT FK_CAR_DAY_EMPLOYEE FOREIGN KEY (Id_Employee) REFERENCES dbo.EMPLOYEE (Id_Employee);
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE parent_object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'FK_CAR_DAY_CLIENT')
+	ALTER TABLE dbo.CAR_DAY ADD CONSTRAINT FK_CAR_DAY_CLIENT FOREIGN KEY (Id_Client) REFERENCES dbo.CLIENT (Id_Client);
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE parent_object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'FK_CAR_DAY_TIME')
+	ALTER TABLE dbo.CAR_DAY ADD CONSTRAINT FK_CAR_DAY_TIME FOREIGN KEY (Id_IssueTime) REFERENCES dbo.[TIME] (Id_Time);
+IF NOT EXISTS (SELECT 1 FROM sys.foreign_keys WHERE parent_object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'FK_CAR_DAY_JUNK')
+	ALTER TABLE dbo.CAR_DAY ADD CONSTRAINT FK_CAR_DAY_JUNK FOREIGN KEY (Id_Junk) REFERENCES dbo.JUNK (Id_Junk);
+GO
+
+-- ===================== Fact Car_day foreign key indexes =====================
+
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'IX_CAR_DAY_Id_Date')
+	CREATE NONCLUSTERED INDEX IX_CAR_DAY_Id_Date ON dbo.CAR_DAY (Id_Date);
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'IX_CAR_DAY_Id_Car')
+	CREATE NONCLUSTERED INDEX IX_CAR_DAY_Id_Car ON dbo.CAR_DAY (Id_Car);
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'IX_CAR_DAY_Id_Employee')
+	CREATE NONCLUSTERED INDEX IX_CAR_DAY_Id_Employee ON dbo.CAR_DAY (Id_Employee);
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'IX_CAR_DAY_Id_Client')
+	CREATE NONCLUSTERED INDEX IX_CAR_DAY_Id_Client ON dbo.CAR_DAY (Id_Client);
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'IX_CAR_DAY_Id_IssueTime')
+	CREATE NONCLUSTERED INDEX IX_CAR_DAY_Id_IssueTime ON dbo.CAR_DAY (Id_IssueTime);
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE object_id = OBJECT_ID(N'dbo.CAR_DAY') AND name = N'IX_CAR_DAY_Id_Junk')
+	CREATE NONCLUSTERED INDEX IX_CAR_DAY_Id_Junk ON dbo.CAR_DAY (Id_Junk);
+GO
+
+-- ===================== Disable CAR_DAY foreign keys and indexes (e.g. before bulk load) =====================
+
+ALTER TABLE dbo.CAR_DAY NOCHECK CONSTRAINT FK_CAR_DAY_DATE;
+ALTER TABLE dbo.CAR_DAY NOCHECK CONSTRAINT FK_CAR_DAY_CAR;
+ALTER TABLE dbo.CAR_DAY NOCHECK CONSTRAINT FK_CAR_DAY_EMPLOYEE;
+ALTER TABLE dbo.CAR_DAY NOCHECK CONSTRAINT FK_CAR_DAY_CLIENT;
+ALTER TABLE dbo.CAR_DAY NOCHECK CONSTRAINT FK_CAR_DAY_TIME;
+ALTER TABLE dbo.CAR_DAY NOCHECK CONSTRAINT FK_CAR_DAY_JUNK;
+
+ALTER INDEX IX_CAR_DAY_Id_Date ON dbo.CAR_DAY DISABLE;
+ALTER INDEX IX_CAR_DAY_Id_Car ON dbo.CAR_DAY DISABLE;
+ALTER INDEX IX_CAR_DAY_Id_Employee ON dbo.CAR_DAY DISABLE;
+ALTER INDEX IX_CAR_DAY_Id_Client ON dbo.CAR_DAY DISABLE;
+ALTER INDEX IX_CAR_DAY_Id_IssueTime ON dbo.CAR_DAY DISABLE;
+ALTER INDEX IX_CAR_DAY_Id_Junk ON dbo.CAR_DAY DISABLE;
+GO
+
+-- ===================== Reorganize CCI, rebuild indexes and re-enable CAR_DAY foreign keys =====================
+
+-- Compresses the delta rowgroups of the increment without rebuilding the existing data.
+ALTER INDEX CCI_CAR_DAY ON dbo.CAR_DAY REORGANIZE WITH (COMPRESS_ALL_ROW_GROUPS = ON);
+
+ALTER INDEX IX_CAR_DAY_Id_Date ON dbo.CAR_DAY REBUILD;
+ALTER INDEX IX_CAR_DAY_Id_Car ON dbo.CAR_DAY REBUILD;
+ALTER INDEX IX_CAR_DAY_Id_Employee ON dbo.CAR_DAY REBUILD;
+ALTER INDEX IX_CAR_DAY_Id_Client ON dbo.CAR_DAY REBUILD;
+ALTER INDEX IX_CAR_DAY_Id_IssueTime ON dbo.CAR_DAY REBUILD;
+ALTER INDEX IX_CAR_DAY_Id_Junk ON dbo.CAR_DAY REBUILD;
+
+ALTER TABLE dbo.CAR_DAY WITH CHECK CHECK CONSTRAINT FK_CAR_DAY_DATE;
+ALTER TABLE dbo.CAR_DAY WITH CHECK CHECK CONSTRAINT FK_CAR_DAY_CAR;
+ALTER TABLE dbo.CAR_DAY WITH CHECK CHECK CONSTRAINT FK_CAR_DAY_EMPLOYEE;
+ALTER TABLE dbo.CAR_DAY WITH CHECK CHECK CONSTRAINT FK_CAR_DAY_CLIENT;
+ALTER TABLE dbo.CAR_DAY WITH CHECK CHECK CONSTRAINT FK_CAR_DAY_TIME;
+ALTER TABLE dbo.CAR_DAY WITH CHECK CHECK CONSTRAINT FK_CAR_DAY_JUNK;
+GO

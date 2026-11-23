@@ -1,0 +1,961 @@
+ReturnStatus,RentalLength,ServiceType,ServiceKind,MileageCategory,CarAgeCategory
+on time,1 to 3 days,routine,planned,up to 50 000 km,up to 1 year
+on time,1 to 3 days,routine,planned,up to 50 000 km,1 to 3 years
+on time,1 to 3 days,routine,planned,up to 50 000 km,3 to 5 years
+on time,1 to 3 days,routine,planned,up to 50 000 km,over 5 years
+on time,1 to 3 days,routine,planned,50 000 to 100 000 km,up to 1 year
+on time,1 to 3 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+on time,1 to 3 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+on time,1 to 3 days,routine,planned,50 000 to 100 000 km,over 5 years
+on time,1 to 3 days,routine,planned,100 000 to 200 000 km,up to 1 year
+on time,1 to 3 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+on time,1 to 3 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+on time,1 to 3 days,routine,planned,100 000 to 200 000 km,over 5 years
+on time,1 to 3 days,routine,planned,over 200 000 km,up to 1 year
+on time,1 to 3 days,routine,planned,over 200 000 km,1 to 3 years
+on time,1 to 3 days,routine,planned,over 200 000 km,3 to 5 years
+on time,1 to 3 days,routine,planned,over 200 000 km,over 5 years
+on time,1 to 3 days,accident,unexpected,up to 50 000 km,up to 1 year
+on time,1 to 3 days,accident,unexpected,up to 50 000 km,1 to 3 years
+on time,1 to 3 days,accident,unexpected,up to 50 000 km,3 to 5 years
+on time,1 to 3 days,accident,unexpected,up to 50 000 km,over 5 years
+on time,1 to 3 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+on time,1 to 3 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,1 to 3 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,1 to 3 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+on time,1 to 3 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+on time,1 to 3 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,1 to 3 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,1 to 3 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+on time,1 to 3 days,accident,unexpected,over 200 000 km,up to 1 year
+on time,1 to 3 days,accident,unexpected,over 200 000 km,1 to 3 years
+on time,1 to 3 days,accident,unexpected,over 200 000 km,3 to 5 years
+on time,1 to 3 days,accident,unexpected,over 200 000 km,over 5 years
+on time,1 to 3 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+on time,1 to 3 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+on time,1 to 3 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+on time,1 to 3 days,malfunction,unexpected,up to 50 000 km,over 5 years
+on time,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+on time,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+on time,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+on time,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+on time,1 to 3 days,malfunction,unexpected,over 200 000 km,up to 1 year
+on time,1 to 3 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+on time,1 to 3 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+on time,1 to 3 days,malfunction,unexpected,over 200 000 km,over 5 years
+on time,1 to 3 days,none,none,up to 50 000 km,up to 1 year
+on time,1 to 3 days,none,none,up to 50 000 km,1 to 3 years
+on time,1 to 3 days,none,none,up to 50 000 km,3 to 5 years
+on time,1 to 3 days,none,none,up to 50 000 km,over 5 years
+on time,1 to 3 days,none,none,50 000 to 100 000 km,up to 1 year
+on time,1 to 3 days,none,none,50 000 to 100 000 km,1 to 3 years
+on time,1 to 3 days,none,none,50 000 to 100 000 km,3 to 5 years
+on time,1 to 3 days,none,none,50 000 to 100 000 km,over 5 years
+on time,1 to 3 days,none,none,100 000 to 200 000 km,up to 1 year
+on time,1 to 3 days,none,none,100 000 to 200 000 km,1 to 3 years
+on time,1 to 3 days,none,none,100 000 to 200 000 km,3 to 5 years
+on time,1 to 3 days,none,none,100 000 to 200 000 km,over 5 years
+on time,1 to 3 days,none,none,over 200 000 km,up to 1 year
+on time,1 to 3 days,none,none,over 200 000 km,1 to 3 years
+on time,1 to 3 days,none,none,over 200 000 km,3 to 5 years
+on time,1 to 3 days,none,none,over 200 000 km,over 5 years
+on time,4 to 7 days,routine,planned,up to 50 000 km,up to 1 year
+on time,4 to 7 days,routine,planned,up to 50 000 km,1 to 3 years
+on time,4 to 7 days,routine,planned,up to 50 000 km,3 to 5 years
+on time,4 to 7 days,routine,planned,up to 50 000 km,over 5 years
+on time,4 to 7 days,routine,planned,50 000 to 100 000 km,up to 1 year
+on time,4 to 7 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+on time,4 to 7 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+on time,4 to 7 days,routine,planned,50 000 to 100 000 km,over 5 years
+on time,4 to 7 days,routine,planned,100 000 to 200 000 km,up to 1 year
+on time,4 to 7 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+on time,4 to 7 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+on time,4 to 7 days,routine,planned,100 000 to 200 000 km,over 5 years
+on time,4 to 7 days,routine,planned,over 200 000 km,up to 1 year
+on time,4 to 7 days,routine,planned,over 200 000 km,1 to 3 years
+on time,4 to 7 days,routine,planned,over 200 000 km,3 to 5 years
+on time,4 to 7 days,routine,planned,over 200 000 km,over 5 years
+on time,4 to 7 days,accident,unexpected,up to 50 000 km,up to 1 year
+on time,4 to 7 days,accident,unexpected,up to 50 000 km,1 to 3 years
+on time,4 to 7 days,accident,unexpected,up to 50 000 km,3 to 5 years
+on time,4 to 7 days,accident,unexpected,up to 50 000 km,over 5 years
+on time,4 to 7 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+on time,4 to 7 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,4 to 7 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,4 to 7 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+on time,4 to 7 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+on time,4 to 7 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,4 to 7 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,4 to 7 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+on time,4 to 7 days,accident,unexpected,over 200 000 km,up to 1 year
+on time,4 to 7 days,accident,unexpected,over 200 000 km,1 to 3 years
+on time,4 to 7 days,accident,unexpected,over 200 000 km,3 to 5 years
+on time,4 to 7 days,accident,unexpected,over 200 000 km,over 5 years
+on time,4 to 7 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+on time,4 to 7 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+on time,4 to 7 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+on time,4 to 7 days,malfunction,unexpected,up to 50 000 km,over 5 years
+on time,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+on time,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+on time,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+on time,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+on time,4 to 7 days,malfunction,unexpected,over 200 000 km,up to 1 year
+on time,4 to 7 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+on time,4 to 7 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+on time,4 to 7 days,malfunction,unexpected,over 200 000 km,over 5 years
+on time,4 to 7 days,none,none,up to 50 000 km,up to 1 year
+on time,4 to 7 days,none,none,up to 50 000 km,1 to 3 years
+on time,4 to 7 days,none,none,up to 50 000 km,3 to 5 years
+on time,4 to 7 days,none,none,up to 50 000 km,over 5 years
+on time,4 to 7 days,none,none,50 000 to 100 000 km,up to 1 year
+on time,4 to 7 days,none,none,50 000 to 100 000 km,1 to 3 years
+on time,4 to 7 days,none,none,50 000 to 100 000 km,3 to 5 years
+on time,4 to 7 days,none,none,50 000 to 100 000 km,over 5 years
+on time,4 to 7 days,none,none,100 000 to 200 000 km,up to 1 year
+on time,4 to 7 days,none,none,100 000 to 200 000 km,1 to 3 years
+on time,4 to 7 days,none,none,100 000 to 200 000 km,3 to 5 years
+on time,4 to 7 days,none,none,100 000 to 200 000 km,over 5 years
+on time,4 to 7 days,none,none,over 200 000 km,up to 1 year
+on time,4 to 7 days,none,none,over 200 000 km,1 to 3 years
+on time,4 to 7 days,none,none,over 200 000 km,3 to 5 years
+on time,4 to 7 days,none,none,over 200 000 km,over 5 years
+on time,8 to 14 days,routine,planned,up to 50 000 km,up to 1 year
+on time,8 to 14 days,routine,planned,up to 50 000 km,1 to 3 years
+on time,8 to 14 days,routine,planned,up to 50 000 km,3 to 5 years
+on time,8 to 14 days,routine,planned,up to 50 000 km,over 5 years
+on time,8 to 14 days,routine,planned,50 000 to 100 000 km,up to 1 year
+on time,8 to 14 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+on time,8 to 14 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+on time,8 to 14 days,routine,planned,50 000 to 100 000 km,over 5 years
+on time,8 to 14 days,routine,planned,100 000 to 200 000 km,up to 1 year
+on time,8 to 14 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+on time,8 to 14 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+on time,8 to 14 days,routine,planned,100 000 to 200 000 km,over 5 years
+on time,8 to 14 days,routine,planned,over 200 000 km,up to 1 year
+on time,8 to 14 days,routine,planned,over 200 000 km,1 to 3 years
+on time,8 to 14 days,routine,planned,over 200 000 km,3 to 5 years
+on time,8 to 14 days,routine,planned,over 200 000 km,over 5 years
+on time,8 to 14 days,accident,unexpected,up to 50 000 km,up to 1 year
+on time,8 to 14 days,accident,unexpected,up to 50 000 km,1 to 3 years
+on time,8 to 14 days,accident,unexpected,up to 50 000 km,3 to 5 years
+on time,8 to 14 days,accident,unexpected,up to 50 000 km,over 5 years
+on time,8 to 14 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+on time,8 to 14 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,8 to 14 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,8 to 14 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+on time,8 to 14 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+on time,8 to 14 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,8 to 14 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,8 to 14 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+on time,8 to 14 days,accident,unexpected,over 200 000 km,up to 1 year
+on time,8 to 14 days,accident,unexpected,over 200 000 km,1 to 3 years
+on time,8 to 14 days,accident,unexpected,over 200 000 km,3 to 5 years
+on time,8 to 14 days,accident,unexpected,over 200 000 km,over 5 years
+on time,8 to 14 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+on time,8 to 14 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+on time,8 to 14 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+on time,8 to 14 days,malfunction,unexpected,up to 50 000 km,over 5 years
+on time,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+on time,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+on time,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+on time,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+on time,8 to 14 days,malfunction,unexpected,over 200 000 km,up to 1 year
+on time,8 to 14 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+on time,8 to 14 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+on time,8 to 14 days,malfunction,unexpected,over 200 000 km,over 5 years
+on time,8 to 14 days,none,none,up to 50 000 km,up to 1 year
+on time,8 to 14 days,none,none,up to 50 000 km,1 to 3 years
+on time,8 to 14 days,none,none,up to 50 000 km,3 to 5 years
+on time,8 to 14 days,none,none,up to 50 000 km,over 5 years
+on time,8 to 14 days,none,none,50 000 to 100 000 km,up to 1 year
+on time,8 to 14 days,none,none,50 000 to 100 000 km,1 to 3 years
+on time,8 to 14 days,none,none,50 000 to 100 000 km,3 to 5 years
+on time,8 to 14 days,none,none,50 000 to 100 000 km,over 5 years
+on time,8 to 14 days,none,none,100 000 to 200 000 km,up to 1 year
+on time,8 to 14 days,none,none,100 000 to 200 000 km,1 to 3 years
+on time,8 to 14 days,none,none,100 000 to 200 000 km,3 to 5 years
+on time,8 to 14 days,none,none,100 000 to 200 000 km,over 5 years
+on time,8 to 14 days,none,none,over 200 000 km,up to 1 year
+on time,8 to 14 days,none,none,over 200 000 km,1 to 3 years
+on time,8 to 14 days,none,none,over 200 000 km,3 to 5 years
+on time,8 to 14 days,none,none,over 200 000 km,over 5 years
+on time,more than 14 days,routine,planned,up to 50 000 km,up to 1 year
+on time,more than 14 days,routine,planned,up to 50 000 km,1 to 3 years
+on time,more than 14 days,routine,planned,up to 50 000 km,3 to 5 years
+on time,more than 14 days,routine,planned,up to 50 000 km,over 5 years
+on time,more than 14 days,routine,planned,50 000 to 100 000 km,up to 1 year
+on time,more than 14 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+on time,more than 14 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+on time,more than 14 days,routine,planned,50 000 to 100 000 km,over 5 years
+on time,more than 14 days,routine,planned,100 000 to 200 000 km,up to 1 year
+on time,more than 14 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+on time,more than 14 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+on time,more than 14 days,routine,planned,100 000 to 200 000 km,over 5 years
+on time,more than 14 days,routine,planned,over 200 000 km,up to 1 year
+on time,more than 14 days,routine,planned,over 200 000 km,1 to 3 years
+on time,more than 14 days,routine,planned,over 200 000 km,3 to 5 years
+on time,more than 14 days,routine,planned,over 200 000 km,over 5 years
+on time,more than 14 days,accident,unexpected,up to 50 000 km,up to 1 year
+on time,more than 14 days,accident,unexpected,up to 50 000 km,1 to 3 years
+on time,more than 14 days,accident,unexpected,up to 50 000 km,3 to 5 years
+on time,more than 14 days,accident,unexpected,up to 50 000 km,over 5 years
+on time,more than 14 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+on time,more than 14 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,more than 14 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,more than 14 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+on time,more than 14 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+on time,more than 14 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,more than 14 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,more than 14 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+on time,more than 14 days,accident,unexpected,over 200 000 km,up to 1 year
+on time,more than 14 days,accident,unexpected,over 200 000 km,1 to 3 years
+on time,more than 14 days,accident,unexpected,over 200 000 km,3 to 5 years
+on time,more than 14 days,accident,unexpected,over 200 000 km,over 5 years
+on time,more than 14 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+on time,more than 14 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+on time,more than 14 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+on time,more than 14 days,malfunction,unexpected,up to 50 000 km,over 5 years
+on time,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+on time,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+on time,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+on time,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+on time,more than 14 days,malfunction,unexpected,over 200 000 km,up to 1 year
+on time,more than 14 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+on time,more than 14 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+on time,more than 14 days,malfunction,unexpected,over 200 000 km,over 5 years
+on time,more than 14 days,none,none,up to 50 000 km,up to 1 year
+on time,more than 14 days,none,none,up to 50 000 km,1 to 3 years
+on time,more than 14 days,none,none,up to 50 000 km,3 to 5 years
+on time,more than 14 days,none,none,up to 50 000 km,over 5 years
+on time,more than 14 days,none,none,50 000 to 100 000 km,up to 1 year
+on time,more than 14 days,none,none,50 000 to 100 000 km,1 to 3 years
+on time,more than 14 days,none,none,50 000 to 100 000 km,3 to 5 years
+on time,more than 14 days,none,none,50 000 to 100 000 km,over 5 years
+on time,more than 14 days,none,none,100 000 to 200 000 km,up to 1 year
+on time,more than 14 days,none,none,100 000 to 200 000 km,1 to 3 years
+on time,more than 14 days,none,none,100 000 to 200 000 km,3 to 5 years
+on time,more than 14 days,none,none,100 000 to 200 000 km,over 5 years
+on time,more than 14 days,none,none,over 200 000 km,up to 1 year
+on time,more than 14 days,none,none,over 200 000 km,1 to 3 years
+on time,more than 14 days,none,none,over 200 000 km,3 to 5 years
+on time,more than 14 days,none,none,over 200 000 km,over 5 years
+on time,not rented,routine,planned,up to 50 000 km,up to 1 year
+on time,not rented,routine,planned,up to 50 000 km,1 to 3 years
+on time,not rented,routine,planned,up to 50 000 km,3 to 5 years
+on time,not rented,routine,planned,up to 50 000 km,over 5 years
+on time,not rented,routine,planned,50 000 to 100 000 km,up to 1 year
+on time,not rented,routine,planned,50 000 to 100 000 km,1 to 3 years
+on time,not rented,routine,planned,50 000 to 100 000 km,3 to 5 years
+on time,not rented,routine,planned,50 000 to 100 000 km,over 5 years
+on time,not rented,routine,planned,100 000 to 200 000 km,up to 1 year
+on time,not rented,routine,planned,100 000 to 200 000 km,1 to 3 years
+on time,not rented,routine,planned,100 000 to 200 000 km,3 to 5 years
+on time,not rented,routine,planned,100 000 to 200 000 km,over 5 years
+on time,not rented,routine,planned,over 200 000 km,up to 1 year
+on time,not rented,routine,planned,over 200 000 km,1 to 3 years
+on time,not rented,routine,planned,over 200 000 km,3 to 5 years
+on time,not rented,routine,planned,over 200 000 km,over 5 years
+on time,not rented,accident,unexpected,up to 50 000 km,up to 1 year
+on time,not rented,accident,unexpected,up to 50 000 km,1 to 3 years
+on time,not rented,accident,unexpected,up to 50 000 km,3 to 5 years
+on time,not rented,accident,unexpected,up to 50 000 km,over 5 years
+on time,not rented,accident,unexpected,50 000 to 100 000 km,up to 1 year
+on time,not rented,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,not rented,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,not rented,accident,unexpected,50 000 to 100 000 km,over 5 years
+on time,not rented,accident,unexpected,100 000 to 200 000 km,up to 1 year
+on time,not rented,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,not rented,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,not rented,accident,unexpected,100 000 to 200 000 km,over 5 years
+on time,not rented,accident,unexpected,over 200 000 km,up to 1 year
+on time,not rented,accident,unexpected,over 200 000 km,1 to 3 years
+on time,not rented,accident,unexpected,over 200 000 km,3 to 5 years
+on time,not rented,accident,unexpected,over 200 000 km,over 5 years
+on time,not rented,malfunction,unexpected,up to 50 000 km,up to 1 year
+on time,not rented,malfunction,unexpected,up to 50 000 km,1 to 3 years
+on time,not rented,malfunction,unexpected,up to 50 000 km,3 to 5 years
+on time,not rented,malfunction,unexpected,up to 50 000 km,over 5 years
+on time,not rented,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+on time,not rented,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+on time,not rented,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+on time,not rented,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+on time,not rented,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+on time,not rented,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+on time,not rented,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+on time,not rented,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+on time,not rented,malfunction,unexpected,over 200 000 km,up to 1 year
+on time,not rented,malfunction,unexpected,over 200 000 km,1 to 3 years
+on time,not rented,malfunction,unexpected,over 200 000 km,3 to 5 years
+on time,not rented,malfunction,unexpected,over 200 000 km,over 5 years
+on time,not rented,none,none,up to 50 000 km,up to 1 year
+on time,not rented,none,none,up to 50 000 km,1 to 3 years
+on time,not rented,none,none,up to 50 000 km,3 to 5 years
+on time,not rented,none,none,up to 50 000 km,over 5 years
+on time,not rented,none,none,50 000 to 100 000 km,up to 1 year
+on time,not rented,none,none,50 000 to 100 000 km,1 to 3 years
+on time,not rented,none,none,50 000 to 100 000 km,3 to 5 years
+on time,not rented,none,none,50 000 to 100 000 km,over 5 years
+on time,not rented,none,none,100 000 to 200 000 km,up to 1 year
+on time,not rented,none,none,100 000 to 200 000 km,1 to 3 years
+on time,not rented,none,none,100 000 to 200 000 km,3 to 5 years
+on time,not rented,none,none,100 000 to 200 000 km,over 5 years
+on time,not rented,none,none,over 200 000 km,up to 1 year
+on time,not rented,none,none,over 200 000 km,1 to 3 years
+on time,not rented,none,none,over 200 000 km,3 to 5 years
+on time,not rented,none,none,over 200 000 km,over 5 years
+late,1 to 3 days,routine,planned,up to 50 000 km,up to 1 year
+late,1 to 3 days,routine,planned,up to 50 000 km,1 to 3 years
+late,1 to 3 days,routine,planned,up to 50 000 km,3 to 5 years
+late,1 to 3 days,routine,planned,up to 50 000 km,over 5 years
+late,1 to 3 days,routine,planned,50 000 to 100 000 km,up to 1 year
+late,1 to 3 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+late,1 to 3 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+late,1 to 3 days,routine,planned,50 000 to 100 000 km,over 5 years
+late,1 to 3 days,routine,planned,100 000 to 200 000 km,up to 1 year
+late,1 to 3 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+late,1 to 3 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+late,1 to 3 days,routine,planned,100 000 to 200 000 km,over 5 years
+late,1 to 3 days,routine,planned,over 200 000 km,up to 1 year
+late,1 to 3 days,routine,planned,over 200 000 km,1 to 3 years
+late,1 to 3 days,routine,planned,over 200 000 km,3 to 5 years
+late,1 to 3 days,routine,planned,over 200 000 km,over 5 years
+late,1 to 3 days,accident,unexpected,up to 50 000 km,up to 1 year
+late,1 to 3 days,accident,unexpected,up to 50 000 km,1 to 3 years
+late,1 to 3 days,accident,unexpected,up to 50 000 km,3 to 5 years
+late,1 to 3 days,accident,unexpected,up to 50 000 km,over 5 years
+late,1 to 3 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+late,1 to 3 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+late,1 to 3 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+late,1 to 3 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+late,1 to 3 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+late,1 to 3 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+late,1 to 3 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+late,1 to 3 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+late,1 to 3 days,accident,unexpected,over 200 000 km,up to 1 year
+late,1 to 3 days,accident,unexpected,over 200 000 km,1 to 3 years
+late,1 to 3 days,accident,unexpected,over 200 000 km,3 to 5 years
+late,1 to 3 days,accident,unexpected,over 200 000 km,over 5 years
+late,1 to 3 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+late,1 to 3 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+late,1 to 3 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+late,1 to 3 days,malfunction,unexpected,up to 50 000 km,over 5 years
+late,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+late,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+late,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+late,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+late,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+late,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+late,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+late,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+late,1 to 3 days,malfunction,unexpected,over 200 000 km,up to 1 year
+late,1 to 3 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+late,1 to 3 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+late,1 to 3 days,malfunction,unexpected,over 200 000 km,over 5 years
+late,1 to 3 days,none,none,up to 50 000 km,up to 1 year
+late,1 to 3 days,none,none,up to 50 000 km,1 to 3 years
+late,1 to 3 days,none,none,up to 50 000 km,3 to 5 years
+late,1 to 3 days,none,none,up to 50 000 km,over 5 years
+late,1 to 3 days,none,none,50 000 to 100 000 km,up to 1 year
+late,1 to 3 days,none,none,50 000 to 100 000 km,1 to 3 years
+late,1 to 3 days,none,none,50 000 to 100 000 km,3 to 5 years
+late,1 to 3 days,none,none,50 000 to 100 000 km,over 5 years
+late,1 to 3 days,none,none,100 000 to 200 000 km,up to 1 year
+late,1 to 3 days,none,none,100 000 to 200 000 km,1 to 3 years
+late,1 to 3 days,none,none,100 000 to 200 000 km,3 to 5 years
+late,1 to 3 days,none,none,100 000 to 200 000 km,over 5 years
+late,1 to 3 days,none,none,over 200 000 km,up to 1 year
+late,1 to 3 days,none,none,over 200 000 km,1 to 3 years
+late,1 to 3 days,none,none,over 200 000 km,3 to 5 years
+late,1 to 3 days,none,none,over 200 000 km,over 5 years
+late,4 to 7 days,routine,planned,up to 50 000 km,up to 1 year
+late,4 to 7 days,routine,planned,up to 50 000 km,1 to 3 years
+late,4 to 7 days,routine,planned,up to 50 000 km,3 to 5 years
+late,4 to 7 days,routine,planned,up to 50 000 km,over 5 years
+late,4 to 7 days,routine,planned,50 000 to 100 000 km,up to 1 year
+late,4 to 7 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+late,4 to 7 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+late,4 to 7 days,routine,planned,50 000 to 100 000 km,over 5 years
+late,4 to 7 days,routine,planned,100 000 to 200 000 km,up to 1 year
+late,4 to 7 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+late,4 to 7 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+late,4 to 7 days,routine,planned,100 000 to 200 000 km,over 5 years
+late,4 to 7 days,routine,planned,over 200 000 km,up to 1 year
+late,4 to 7 days,routine,planned,over 200 000 km,1 to 3 years
+late,4 to 7 days,routine,planned,over 200 000 km,3 to 5 years
+late,4 to 7 days,routine,planned,over 200 000 km,over 5 years
+late,4 to 7 days,accident,unexpected,up to 50 000 km,up to 1 year
+late,4 to 7 days,accident,unexpected,up to 50 000 km,1 to 3 years
+late,4 to 7 days,accident,unexpected,up to 50 000 km,3 to 5 years
+late,4 to 7 days,accident,unexpected,up to 50 000 km,over 5 years
+late,4 to 7 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+late,4 to 7 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+late,4 to 7 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+late,4 to 7 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+late,4 to 7 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+late,4 to 7 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+late,4 to 7 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+late,4 to 7 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+late,4 to 7 days,accident,unexpected,over 200 000 km,up to 1 year
+late,4 to 7 days,accident,unexpected,over 200 000 km,1 to 3 years
+late,4 to 7 days,accident,unexpected,over 200 000 km,3 to 5 years
+late,4 to 7 days,accident,unexpected,over 200 000 km,over 5 years
+late,4 to 7 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+late,4 to 7 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+late,4 to 7 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+late,4 to 7 days,malfunction,unexpected,up to 50 000 km,over 5 years
+late,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+late,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+late,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+late,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+late,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+late,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+late,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+late,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+late,4 to 7 days,malfunction,unexpected,over 200 000 km,up to 1 year
+late,4 to 7 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+late,4 to 7 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+late,4 to 7 days,malfunction,unexpected,over 200 000 km,over 5 years
+late,4 to 7 days,none,none,up to 50 000 km,up to 1 year
+late,4 to 7 days,none,none,up to 50 000 km,1 to 3 years
+late,4 to 7 days,none,none,up to 50 000 km,3 to 5 years
+late,4 to 7 days,none,none,up to 50 000 km,over 5 years
+late,4 to 7 days,none,none,50 000 to 100 000 km,up to 1 year
+late,4 to 7 days,none,none,50 000 to 100 000 km,1 to 3 years
+late,4 to 7 days,none,none,50 000 to 100 000 km,3 to 5 years
+late,4 to 7 days,none,none,50 000 to 100 000 km,over 5 years
+late,4 to 7 days,none,none,100 000 to 200 000 km,up to 1 year
+late,4 to 7 days,none,none,100 000 to 200 000 km,1 to 3 years
+late,4 to 7 days,none,none,100 000 to 200 000 km,3 to 5 years
+late,4 to 7 days,none,none,100 000 to 200 000 km,over 5 years
+late,4 to 7 days,none,none,over 200 000 km,up to 1 year
+late,4 to 7 days,none,none,over 200 000 km,1 to 3 years
+late,4 to 7 days,none,none,over 200 000 km,3 to 5 years
+late,4 to 7 days,none,none,over 200 000 km,over 5 years
+late,8 to 14 days,routine,planned,up to 50 000 km,up to 1 year
+late,8 to 14 days,routine,planned,up to 50 000 km,1 to 3 years
+late,8 to 14 days,routine,planned,up to 50 000 km,3 to 5 years
+late,8 to 14 days,routine,planned,up to 50 000 km,over 5 years
+late,8 to 14 days,routine,planned,50 000 to 100 000 km,up to 1 year
+late,8 to 14 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+late,8 to 14 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+late,8 to 14 days,routine,planned,50 000 to 100 000 km,over 5 years
+late,8 to 14 days,routine,planned,100 000 to 200 000 km,up to 1 year
+late,8 to 14 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+late,8 to 14 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+late,8 to 14 days,routine,planned,100 000 to 200 000 km,over 5 years
+late,8 to 14 days,routine,planned,over 200 000 km,up to 1 year
+late,8 to 14 days,routine,planned,over 200 000 km,1 to 3 years
+late,8 to 14 days,routine,planned,over 200 000 km,3 to 5 years
+late,8 to 14 days,routine,planned,over 200 000 km,over 5 years
+late,8 to 14 days,accident,unexpected,up to 50 000 km,up to 1 year
+late,8 to 14 days,accident,unexpected,up to 50 000 km,1 to 3 years
+late,8 to 14 days,accident,unexpected,up to 50 000 km,3 to 5 years
+late,8 to 14 days,accident,unexpected,up to 50 000 km,over 5 years
+late,8 to 14 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+late,8 to 14 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+late,8 to 14 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+late,8 to 14 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+late,8 to 14 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+late,8 to 14 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+late,8 to 14 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+late,8 to 14 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+late,8 to 14 days,accident,unexpected,over 200 000 km,up to 1 year
+late,8 to 14 days,accident,unexpected,over 200 000 km,1 to 3 years
+late,8 to 14 days,accident,unexpected,over 200 000 km,3 to 5 years
+late,8 to 14 days,accident,unexpected,over 200 000 km,over 5 years
+late,8 to 14 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+late,8 to 14 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+late,8 to 14 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+late,8 to 14 days,malfunction,unexpected,up to 50 000 km,over 5 years
+late,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+late,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+late,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+late,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+late,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+late,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+late,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+late,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+late,8 to 14 days,malfunction,unexpected,over 200 000 km,up to 1 year
+late,8 to 14 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+late,8 to 14 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+late,8 to 14 days,malfunction,unexpected,over 200 000 km,over 5 years
+late,8 to 14 days,none,none,up to 50 000 km,up to 1 year
+late,8 to 14 days,none,none,up to 50 000 km,1 to 3 years
+late,8 to 14 days,none,none,up to 50 000 km,3 to 5 years
+late,8 to 14 days,none,none,up to 50 000 km,over 5 years
+late,8 to 14 days,none,none,50 000 to 100 000 km,up to 1 year
+late,8 to 14 days,none,none,50 000 to 100 000 km,1 to 3 years
+late,8 to 14 days,none,none,50 000 to 100 000 km,3 to 5 years
+late,8 to 14 days,none,none,50 000 to 100 000 km,over 5 years
+late,8 to 14 days,none,none,100 000 to 200 000 km,up to 1 year
+late,8 to 14 days,none,none,100 000 to 200 000 km,1 to 3 years
+late,8 to 14 days,none,none,100 000 to 200 000 km,3 to 5 years
+late,8 to 14 days,none,none,100 000 to 200 000 km,over 5 years
+late,8 to 14 days,none,none,over 200 000 km,up to 1 year
+late,8 to 14 days,none,none,over 200 000 km,1 to 3 years
+late,8 to 14 days,none,none,over 200 000 km,3 to 5 years
+late,8 to 14 days,none,none,over 200 000 km,over 5 years
+late,more than 14 days,routine,planned,up to 50 000 km,up to 1 year
+late,more than 14 days,routine,planned,up to 50 000 km,1 to 3 years
+late,more than 14 days,routine,planned,up to 50 000 km,3 to 5 years
+late,more than 14 days,routine,planned,up to 50 000 km,over 5 years
+late,more than 14 days,routine,planned,50 000 to 100 000 km,up to 1 year
+late,more than 14 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+late,more than 14 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+late,more than 14 days,routine,planned,50 000 to 100 000 km,over 5 years
+late,more than 14 days,routine,planned,100 000 to 200 000 km,up to 1 year
+late,more than 14 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+late,more than 14 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+late,more than 14 days,routine,planned,100 000 to 200 000 km,over 5 years
+late,more than 14 days,routine,planned,over 200 000 km,up to 1 year
+late,more than 14 days,routine,planned,over 200 000 km,1 to 3 years
+late,more than 14 days,routine,planned,over 200 000 km,3 to 5 years
+late,more than 14 days,routine,planned,over 200 000 km,over 5 years
+late,more than 14 days,accident,unexpected,up to 50 000 km,up to 1 year
+late,more than 14 days,accident,unexpected,up to 50 000 km,1 to 3 years
+late,more than 14 days,accident,unexpected,up to 50 000 km,3 to 5 years
+late,more than 14 days,accident,unexpected,up to 50 000 km,over 5 years
+late,more than 14 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+late,more than 14 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+late,more than 14 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+late,more than 14 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+late,more than 14 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+late,more than 14 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+late,more than 14 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+late,more than 14 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+late,more than 14 days,accident,unexpected,over 200 000 km,up to 1 year
+late,more than 14 days,accident,unexpected,over 200 000 km,1 to 3 years
+late,more than 14 days,accident,unexpected,over 200 000 km,3 to 5 years
+late,more than 14 days,accident,unexpected,over 200 000 km,over 5 years
+late,more than 14 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+late,more than 14 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+late,more than 14 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+late,more than 14 days,malfunction,unexpected,up to 50 000 km,over 5 years
+late,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+late,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+late,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+late,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+late,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+late,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+late,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+late,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+late,more than 14 days,malfunction,unexpected,over 200 000 km,up to 1 year
+late,more than 14 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+late,more than 14 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+late,more than 14 days,malfunction,unexpected,over 200 000 km,over 5 years
+late,more than 14 days,none,none,up to 50 000 km,up to 1 year
+late,more than 14 days,none,none,up to 50 000 km,1 to 3 years
+late,more than 14 days,none,none,up to 50 000 km,3 to 5 years
+late,more than 14 days,none,none,up to 50 000 km,over 5 years
+late,more than 14 days,none,none,50 000 to 100 000 km,up to 1 year
+late,more than 14 days,none,none,50 000 to 100 000 km,1 to 3 years
+late,more than 14 days,none,none,50 000 to 100 000 km,3 to 5 years
+late,more than 14 days,none,none,50 000 to 100 000 km,over 5 years
+late,more than 14 days,none,none,100 000 to 200 000 km,up to 1 year
+late,more than 14 days,none,none,100 000 to 200 000 km,1 to 3 years
+late,more than 14 days,none,none,100 000 to 200 000 km,3 to 5 years
+late,more than 14 days,none,none,100 000 to 200 000 km,over 5 years
+late,more than 14 days,none,none,over 200 000 km,up to 1 year
+late,more than 14 days,none,none,over 200 000 km,1 to 3 years
+late,more than 14 days,none,none,over 200 000 km,3 to 5 years
+late,more than 14 days,none,none,over 200 000 km,over 5 years
+late,not rented,routine,planned,up to 50 000 km,up to 1 year
+late,not rented,routine,planned,up to 50 000 km,1 to 3 years
+late,not rented,routine,planned,up to 50 000 km,3 to 5 years
+late,not rented,routine,planned,up to 50 000 km,over 5 years
+late,not rented,routine,planned,50 000 to 100 000 km,up to 1 year
+late,not rented,routine,planned,50 000 to 100 000 km,1 to 3 years
+late,not rented,routine,planned,50 000 to 100 000 km,3 to 5 years
+late,not rented,routine,planned,50 000 to 100 000 km,over 5 years
+late,not rented,routine,planned,100 000 to 200 000 km,up to 1 year
+late,not rented,routine,planned,100 000 to 200 000 km,1 to 3 years
+late,not rented,routine,planned,100 000 to 200 000 km,3 to 5 years
+late,not rented,routine,planned,100 000 to 200 000 km,over 5 years
+late,not rented,routine,planned,over 200 000 km,up to 1 year
+late,not rented,routine,planned,over 200 000 km,1 to 3 years
+late,not rented,routine,planned,over 200 000 km,3 to 5 years
+late,not rented,routine,planned,over 200 000 km,over 5 years
+late,not rented,accident,unexpected,up to 50 000 km,up to 1 year
+late,not rented,accident,unexpected,up to 50 000 km,1 to 3 years
+late,not rented,accident,unexpected,up to 50 000 km,3 to 5 years
+late,not rented,accident,unexpected,up to 50 000 km,over 5 years
+late,not rented,accident,unexpected,50 000 to 100 000 km,up to 1 year
+late,not rented,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+late,not rented,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+late,not rented,accident,unexpected,50 000 to 100 000 km,over 5 years
+late,not rented,accident,unexpected,100 000 to 200 000 km,up to 1 year
+late,not rented,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+late,not rented,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+late,not rented,accident,unexpected,100 000 to 200 000 km,over 5 years
+late,not rented,accident,unexpected,over 200 000 km,up to 1 year
+late,not rented,accident,unexpected,over 200 000 km,1 to 3 years
+late,not rented,accident,unexpected,over 200 000 km,3 to 5 years
+late,not rented,accident,unexpected,over 200 000 km,over 5 years
+late,not rented,malfunction,unexpected,up to 50 000 km,up to 1 year
+late,not rented,malfunction,unexpected,up to 50 000 km,1 to 3 years
+late,not rented,malfunction,unexpected,up to 50 000 km,3 to 5 years
+late,not rented,malfunction,unexpected,up to 50 000 km,over 5 years
+late,not rented,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+late,not rented,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+late,not rented,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+late,not rented,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+late,not rented,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+late,not rented,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+late,not rented,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+late,not rented,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+late,not rented,malfunction,unexpected,over 200 000 km,up to 1 year
+late,not rented,malfunction,unexpected,over 200 000 km,1 to 3 years
+late,not rented,malfunction,unexpected,over 200 000 km,3 to 5 years
+late,not rented,malfunction,unexpected,over 200 000 km,over 5 years
+late,not rented,none,none,up to 50 000 km,up to 1 year
+late,not rented,none,none,up to 50 000 km,1 to 3 years
+late,not rented,none,none,up to 50 000 km,3 to 5 years
+late,not rented,none,none,up to 50 000 km,over 5 years
+late,not rented,none,none,50 000 to 100 000 km,up to 1 year
+late,not rented,none,none,50 000 to 100 000 km,1 to 3 years
+late,not rented,none,none,50 000 to 100 000 km,3 to 5 years
+late,not rented,none,none,50 000 to 100 000 km,over 5 years
+late,not rented,none,none,100 000 to 200 000 km,up to 1 year
+late,not rented,none,none,100 000 to 200 000 km,1 to 3 years
+late,not rented,none,none,100 000 to 200 000 km,3 to 5 years
+late,not rented,none,none,100 000 to 200 000 km,over 5 years
+late,not rented,none,none,over 200 000 km,up to 1 year
+late,not rented,none,none,over 200 000 km,1 to 3 years
+late,not rented,none,none,over 200 000 km,3 to 5 years
+late,not rented,none,none,over 200 000 km,over 5 years
+not rented,1 to 3 days,routine,planned,up to 50 000 km,up to 1 year
+not rented,1 to 3 days,routine,planned,up to 50 000 km,1 to 3 years
+not rented,1 to 3 days,routine,planned,up to 50 000 km,3 to 5 years
+not rented,1 to 3 days,routine,planned,up to 50 000 km,over 5 years
+not rented,1 to 3 days,routine,planned,50 000 to 100 000 km,up to 1 year
+not rented,1 to 3 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+not rented,1 to 3 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+not rented,1 to 3 days,routine,planned,50 000 to 100 000 km,over 5 years
+not rented,1 to 3 days,routine,planned,100 000 to 200 000 km,up to 1 year
+not rented,1 to 3 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+not rented,1 to 3 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+not rented,1 to 3 days,routine,planned,100 000 to 200 000 km,over 5 years
+not rented,1 to 3 days,routine,planned,over 200 000 km,up to 1 year
+not rented,1 to 3 days,routine,planned,over 200 000 km,1 to 3 years
+not rented,1 to 3 days,routine,planned,over 200 000 km,3 to 5 years
+not rented,1 to 3 days,routine,planned,over 200 000 km,over 5 years
+not rented,1 to 3 days,accident,unexpected,up to 50 000 km,up to 1 year
+not rented,1 to 3 days,accident,unexpected,up to 50 000 km,1 to 3 years
+not rented,1 to 3 days,accident,unexpected,up to 50 000 km,3 to 5 years
+not rented,1 to 3 days,accident,unexpected,up to 50 000 km,over 5 years
+not rented,1 to 3 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,1 to 3 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,1 to 3 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,1 to 3 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+not rented,1 to 3 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,1 to 3 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,1 to 3 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,1 to 3 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+not rented,1 to 3 days,accident,unexpected,over 200 000 km,up to 1 year
+not rented,1 to 3 days,accident,unexpected,over 200 000 km,1 to 3 years
+not rented,1 to 3 days,accident,unexpected,over 200 000 km,3 to 5 years
+not rented,1 to 3 days,accident,unexpected,over 200 000 km,over 5 years
+not rented,1 to 3 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+not rented,1 to 3 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+not rented,1 to 3 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+not rented,1 to 3 days,malfunction,unexpected,up to 50 000 km,over 5 years
+not rented,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,1 to 3 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+not rented,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,1 to 3 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+not rented,1 to 3 days,malfunction,unexpected,over 200 000 km,up to 1 year
+not rented,1 to 3 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+not rented,1 to 3 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+not rented,1 to 3 days,malfunction,unexpected,over 200 000 km,over 5 years
+not rented,1 to 3 days,none,none,up to 50 000 km,up to 1 year
+not rented,1 to 3 days,none,none,up to 50 000 km,1 to 3 years
+not rented,1 to 3 days,none,none,up to 50 000 km,3 to 5 years
+not rented,1 to 3 days,none,none,up to 50 000 km,over 5 years
+not rented,1 to 3 days,none,none,50 000 to 100 000 km,up to 1 year
+not rented,1 to 3 days,none,none,50 000 to 100 000 km,1 to 3 years
+not rented,1 to 3 days,none,none,50 000 to 100 000 km,3 to 5 years
+not rented,1 to 3 days,none,none,50 000 to 100 000 km,over 5 years
+not rented,1 to 3 days,none,none,100 000 to 200 000 km,up to 1 year
+not rented,1 to 3 days,none,none,100 000 to 200 000 km,1 to 3 years
+not rented,1 to 3 days,none,none,100 000 to 200 000 km,3 to 5 years
+not rented,1 to 3 days,none,none,100 000 to 200 000 km,over 5 years
+not rented,1 to 3 days,none,none,over 200 000 km,up to 1 year
+not rented,1 to 3 days,none,none,over 200 000 km,1 to 3 years
+not rented,1 to 3 days,none,none,over 200 000 km,3 to 5 years
+not rented,1 to 3 days,none,none,over 200 000 km,over 5 years
+not rented,4 to 7 days,routine,planned,up to 50 000 km,up to 1 year
+not rented,4 to 7 days,routine,planned,up to 50 000 km,1 to 3 years
+not rented,4 to 7 days,routine,planned,up to 50 000 km,3 to 5 years
+not rented,4 to 7 days,routine,planned,up to 50 000 km,over 5 years
+not rented,4 to 7 days,routine,planned,50 000 to 100 000 km,up to 1 year
+not rented,4 to 7 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+not rented,4 to 7 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+not rented,4 to 7 days,routine,planned,50 000 to 100 000 km,over 5 years
+not rented,4 to 7 days,routine,planned,100 000 to 200 000 km,up to 1 year
+not rented,4 to 7 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+not rented,4 to 7 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+not rented,4 to 7 days,routine,planned,100 000 to 200 000 km,over 5 years
+not rented,4 to 7 days,routine,planned,over 200 000 km,up to 1 year
+not rented,4 to 7 days,routine,planned,over 200 000 km,1 to 3 years
+not rented,4 to 7 days,routine,planned,over 200 000 km,3 to 5 years
+not rented,4 to 7 days,routine,planned,over 200 000 km,over 5 years
+not rented,4 to 7 days,accident,unexpected,up to 50 000 km,up to 1 year
+not rented,4 to 7 days,accident,unexpected,up to 50 000 km,1 to 3 years
+not rented,4 to 7 days,accident,unexpected,up to 50 000 km,3 to 5 years
+not rented,4 to 7 days,accident,unexpected,up to 50 000 km,over 5 years
+not rented,4 to 7 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,4 to 7 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,4 to 7 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,4 to 7 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+not rented,4 to 7 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,4 to 7 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,4 to 7 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,4 to 7 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+not rented,4 to 7 days,accident,unexpected,over 200 000 km,up to 1 year
+not rented,4 to 7 days,accident,unexpected,over 200 000 km,1 to 3 years
+not rented,4 to 7 days,accident,unexpected,over 200 000 km,3 to 5 years
+not rented,4 to 7 days,accident,unexpected,over 200 000 km,over 5 years
+not rented,4 to 7 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+not rented,4 to 7 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+not rented,4 to 7 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+not rented,4 to 7 days,malfunction,unexpected,up to 50 000 km,over 5 years
+not rented,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,4 to 7 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+not rented,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,4 to 7 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+not rented,4 to 7 days,malfunction,unexpected,over 200 000 km,up to 1 year
+not rented,4 to 7 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+not rented,4 to 7 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+not rented,4 to 7 days,malfunction,unexpected,over 200 000 km,over 5 years
+not rented,4 to 7 days,none,none,up to 50 000 km,up to 1 year
+not rented,4 to 7 days,none,none,up to 50 000 km,1 to 3 years
+not rented,4 to 7 days,none,none,up to 50 000 km,3 to 5 years
+not rented,4 to 7 days,none,none,up to 50 000 km,over 5 years
+not rented,4 to 7 days,none,none,50 000 to 100 000 km,up to 1 year
+not rented,4 to 7 days,none,none,50 000 to 100 000 km,1 to 3 years
+not rented,4 to 7 days,none,none,50 000 to 100 000 km,3 to 5 years
+not rented,4 to 7 days,none,none,50 000 to 100 000 km,over 5 years
+not rented,4 to 7 days,none,none,100 000 to 200 000 km,up to 1 year
+not rented,4 to 7 days,none,none,100 000 to 200 000 km,1 to 3 years
+not rented,4 to 7 days,none,none,100 000 to 200 000 km,3 to 5 years
+not rented,4 to 7 days,none,none,100 000 to 200 000 km,over 5 years
+not rented,4 to 7 days,none,none,over 200 000 km,up to 1 year
+not rented,4 to 7 days,none,none,over 200 000 km,1 to 3 years
+not rented,4 to 7 days,none,none,over 200 000 km,3 to 5 years
+not rented,4 to 7 days,none,none,over 200 000 km,over 5 years
+not rented,8 to 14 days,routine,planned,up to 50 000 km,up to 1 year
+not rented,8 to 14 days,routine,planned,up to 50 000 km,1 to 3 years
+not rented,8 to 14 days,routine,planned,up to 50 000 km,3 to 5 years
+not rented,8 to 14 days,routine,planned,up to 50 000 km,over 5 years
+not rented,8 to 14 days,routine,planned,50 000 to 100 000 km,up to 1 year
+not rented,8 to 14 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+not rented,8 to 14 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+not rented,8 to 14 days,routine,planned,50 000 to 100 000 km,over 5 years
+not rented,8 to 14 days,routine,planned,100 000 to 200 000 km,up to 1 year
+not rented,8 to 14 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+not rented,8 to 14 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+not rented,8 to 14 days,routine,planned,100 000 to 200 000 km,over 5 years
+not rented,8 to 14 days,routine,planned,over 200 000 km,up to 1 year
+not rented,8 to 14 days,routine,planned,over 200 000 km,1 to 3 years
+not rented,8 to 14 days,routine,planned,over 200 000 km,3 to 5 years
+not rented,8 to 14 days,routine,planned,over 200 000 km,over 5 years
+not rented,8 to 14 days,accident,unexpected,up to 50 000 km,up to 1 year
+not rented,8 to 14 days,accident,unexpected,up to 50 000 km,1 to 3 years
+not rented,8 to 14 days,accident,unexpected,up to 50 000 km,3 to 5 years
+not rented,8 to 14 days,accident,unexpected,up to 50 000 km,over 5 years
+not rented,8 to 14 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,8 to 14 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,8 to 14 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,8 to 14 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+not rented,8 to 14 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,8 to 14 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,8 to 14 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,8 to 14 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+not rented,8 to 14 days,accident,unexpected,over 200 000 km,up to 1 year
+not rented,8 to 14 days,accident,unexpected,over 200 000 km,1 to 3 years
+not rented,8 to 14 days,accident,unexpected,over 200 000 km,3 to 5 years
+not rented,8 to 14 days,accident,unexpected,over 200 000 km,over 5 years
+not rented,8 to 14 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+not rented,8 to 14 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+not rented,8 to 14 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+not rented,8 to 14 days,malfunction,unexpected,up to 50 000 km,over 5 years
+not rented,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,8 to 14 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+not rented,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,8 to 14 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+not rented,8 to 14 days,malfunction,unexpected,over 200 000 km,up to 1 year
+not rented,8 to 14 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+not rented,8 to 14 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+not rented,8 to 14 days,malfunction,unexpected,over 200 000 km,over 5 years
+not rented,8 to 14 days,none,none,up to 50 000 km,up to 1 year
+not rented,8 to 14 days,none,none,up to 50 000 km,1 to 3 years
+not rented,8 to 14 days,none,none,up to 50 000 km,3 to 5 years
+not rented,8 to 14 days,none,none,up to 50 000 km,over 5 years
+not rented,8 to 14 days,none,none,50 000 to 100 000 km,up to 1 year
+not rented,8 to 14 days,none,none,50 000 to 100 000 km,1 to 3 years
+not rented,8 to 14 days,none,none,50 000 to 100 000 km,3 to 5 years
+not rented,8 to 14 days,none,none,50 000 to 100 000 km,over 5 years
+not rented,8 to 14 days,none,none,100 000 to 200 000 km,up to 1 year
+not rented,8 to 14 days,none,none,100 000 to 200 000 km,1 to 3 years
+not rented,8 to 14 days,none,none,100 000 to 200 000 km,3 to 5 years
+not rented,8 to 14 days,none,none,100 000 to 200 000 km,over 5 years
+not rented,8 to 14 days,none,none,over 200 000 km,up to 1 year
+not rented,8 to 14 days,none,none,over 200 000 km,1 to 3 years
+not rented,8 to 14 days,none,none,over 200 000 km,3 to 5 years
+not rented,8 to 14 days,none,none,over 200 000 km,over 5 years
+not rented,more than 14 days,routine,planned,up to 50 000 km,up to 1 year
+not rented,more than 14 days,routine,planned,up to 50 000 km,1 to 3 years
+not rented,more than 14 days,routine,planned,up to 50 000 km,3 to 5 years
+not rented,more than 14 days,routine,planned,up to 50 000 km,over 5 years
+not rented,more than 14 days,routine,planned,50 000 to 100 000 km,up to 1 year
+not rented,more than 14 days,routine,planned,50 000 to 100 000 km,1 to 3 years
+not rented,more than 14 days,routine,planned,50 000 to 100 000 km,3 to 5 years
+not rented,more than 14 days,routine,planned,50 000 to 100 000 km,over 5 years
+not rented,more than 14 days,routine,planned,100 000 to 200 000 km,up to 1 year
+not rented,more than 14 days,routine,planned,100 000 to 200 000 km,1 to 3 years
+not rented,more than 14 days,routine,planned,100 000 to 200 000 km,3 to 5 years
+not rented,more than 14 days,routine,planned,100 000 to 200 000 km,over 5 years
+not rented,more than 14 days,routine,planned,over 200 000 km,up to 1 year
+not rented,more than 14 days,routine,planned,over 200 000 km,1 to 3 years
+not rented,more than 14 days,routine,planned,over 200 000 km,3 to 5 years
+not rented,more than 14 days,routine,planned,over 200 000 km,over 5 years
+not rented,more than 14 days,accident,unexpected,up to 50 000 km,up to 1 year
+not rented,more than 14 days,accident,unexpected,up to 50 000 km,1 to 3 years
+not rented,more than 14 days,accident,unexpected,up to 50 000 km,3 to 5 years
+not rented,more than 14 days,accident,unexpected,up to 50 000 km,over 5 years
+not rented,more than 14 days,accident,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,more than 14 days,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,more than 14 days,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,more than 14 days,accident,unexpected,50 000 to 100 000 km,over 5 years
+not rented,more than 14 days,accident,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,more than 14 days,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,more than 14 days,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,more than 14 days,accident,unexpected,100 000 to 200 000 km,over 5 years
+not rented,more than 14 days,accident,unexpected,over 200 000 km,up to 1 year
+not rented,more than 14 days,accident,unexpected,over 200 000 km,1 to 3 years
+not rented,more than 14 days,accident,unexpected,over 200 000 km,3 to 5 years
+not rented,more than 14 days,accident,unexpected,over 200 000 km,over 5 years
+not rented,more than 14 days,malfunction,unexpected,up to 50 000 km,up to 1 year
+not rented,more than 14 days,malfunction,unexpected,up to 50 000 km,1 to 3 years
+not rented,more than 14 days,malfunction,unexpected,up to 50 000 km,3 to 5 years
+not rented,more than 14 days,malfunction,unexpected,up to 50 000 km,over 5 years
+not rented,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,more than 14 days,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+not rented,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,more than 14 days,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+not rented,more than 14 days,malfunction,unexpected,over 200 000 km,up to 1 year
+not rented,more than 14 days,malfunction,unexpected,over 200 000 km,1 to 3 years
+not rented,more than 14 days,malfunction,unexpected,over 200 000 km,3 to 5 years
+not rented,more than 14 days,malfunction,unexpected,over 200 000 km,over 5 years
+not rented,more than 14 days,none,none,up to 50 000 km,up to 1 year
+not rented,more than 14 days,none,none,up to 50 000 km,1 to 3 years
+not rented,more than 14 days,none,none,up to 50 000 km,3 to 5 years
+not rented,more than 14 days,none,none,up to 50 000 km,over 5 years
+not rented,more than 14 days,none,none,50 000 to 100 000 km,up to 1 year
+not rented,more than 14 days,none,none,50 000 to 100 000 km,1 to 3 years
+not rented,more than 14 days,none,none,50 000 to 100 000 km,3 to 5 years
+not rented,more than 14 days,none,none,50 000 to 100 000 km,over 5 years
+not rented,more than 14 days,none,none,100 000 to 200 000 km,up to 1 year
+not rented,more than 14 days,none,none,100 000 to 200 000 km,1 to 3 years
+not rented,more than 14 days,none,none,100 000 to 200 000 km,3 to 5 years
+not rented,more than 14 days,none,none,100 000 to 200 000 km,over 5 years
+not rented,more than 14 days,none,none,over 200 000 km,up to 1 year
+not rented,more than 14 days,none,none,over 200 000 km,1 to 3 years
+not rented,more than 14 days,none,none,over 200 000 km,3 to 5 years
+not rented,more than 14 days,none,none,over 200 000 km,over 5 years
+not rented,not rented,routine,planned,up to 50 000 km,up to 1 year
+not rented,not rented,routine,planned,up to 50 000 km,1 to 3 years
+not rented,not rented,routine,planned,up to 50 000 km,3 to 5 years
+not rented,not rented,routine,planned,up to 50 000 km,over 5 years
+not rented,not rented,routine,planned,50 000 to 100 000 km,up to 1 year
+not rented,not rented,routine,planned,50 000 to 100 000 km,1 to 3 years
+not rented,not rented,routine,planned,50 000 to 100 000 km,3 to 5 years
+not rented,not rented,routine,planned,50 000 to 100 000 km,over 5 years
+not rented,not rented,routine,planned,100 000 to 200 000 km,up to 1 year
+not rented,not rented,routine,planned,100 000 to 200 000 km,1 to 3 years
+not rented,not rented,routine,planned,100 000 to 200 000 km,3 to 5 years
+not rented,not rented,routine,planned,100 000 to 200 000 km,over 5 years
+not rented,not rented,routine,planned,over 200 000 km,up to 1 year
+not rented,not rented,routine,planned,over 200 000 km,1 to 3 years
+not rented,not rented,routine,planned,over 200 000 km,3 to 5 years
+not rented,not rented,routine,planned,over 200 000 km,over 5 years
+not rented,not rented,accident,unexpected,up to 50 000 km,up to 1 year
+not rented,not rented,accident,unexpected,up to 50 000 km,1 to 3 years
+not rented,not rented,accident,unexpected,up to 50 000 km,3 to 5 years
+not rented,not rented,accident,unexpected,up to 50 000 km,over 5 years
+not rented,not rented,accident,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,not rented,accident,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,not rented,accident,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,not rented,accident,unexpected,50 000 to 100 000 km,over 5 years
+not rented,not rented,accident,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,not rented,accident,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,not rented,accident,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,not rented,accident,unexpected,100 000 to 200 000 km,over 5 years
+not rented,not rented,accident,unexpected,over 200 000 km,up to 1 year
+not rented,not rented,accident,unexpected,over 200 000 km,1 to 3 years
+not rented,not rented,accident,unexpected,over 200 000 km,3 to 5 years
+not rented,not rented,accident,unexpected,over 200 000 km,over 5 years
+not rented,not rented,malfunction,unexpected,up to 50 000 km,up to 1 year
+not rented,not rented,malfunction,unexpected,up to 50 000 km,1 to 3 years
+not rented,not rented,malfunction,unexpected,up to 50 000 km,3 to 5 years
+not rented,not rented,malfunction,unexpected,up to 50 000 km,over 5 years
+not rented,not rented,malfunction,unexpected,50 000 to 100 000 km,up to 1 year
+not rented,not rented,malfunction,unexpected,50 000 to 100 000 km,1 to 3 years
+not rented,not rented,malfunction,unexpected,50 000 to 100 000 km,3 to 5 years
+not rented,not rented,malfunction,unexpected,50 000 to 100 000 km,over 5 years
+not rented,not rented,malfunction,unexpected,100 000 to 200 000 km,up to 1 year
+not rented,not rented,malfunction,unexpected,100 000 to 200 000 km,1 to 3 years
+not rented,not rented,malfunction,unexpected,100 000 to 200 000 km,3 to 5 years
+not rented,not rented,malfunction,unexpected,100 000 to 200 000 km,over 5 years
+not rented,not rented,malfunction,unexpected,over 200 000 km,up to 1 year
+not rented,not rented,malfunction,unexpected,over 200 000 km,1 to 3 years
+not rented,not rented,malfunction,unexpected,over 200 000 km,3 to 5 years
+not rented,not rented,malfunction,unexpected,over 200 000 km,over 5 years
+not rented,not rented,none,none,up to 50 000 km,up to 1 year
+not rented,not rented,none,none,up to 50 000 km,1 to 3 years
+not rented,not rented,none,none,up to 50 000 km,3 to 5 years
+not rented,not rented,none,none,up to 50 000 km,over 5 years
+not rented,not rented,none,none,50 000 to 100 000 km,up to 1 year
+not rented,not rented,none,none,50 000 to 100 000 km,1 to 3 years
+not rented,not rented,none,none,50 000 to 100 000 km,3 to 5 years
+not rented,not rented,none,none,50 000 to 100 000 km,over 5 years
+not rented,not rented,none,none,100 000 to 200 000 km,up to 1 year
+not rented,not rented,none,none,100 000 to 200 000 km,1 to 3 years
+not rented,not rented,none,none,100 000 to 200 000 km,3 to 5 years
+not rented,not rented,none,none,100 000 to 200 000 km,over 5 years
+not rented,not rented,none,none,over 200 000 km,up to 1 year
+not rented,not rented,none,none,over 200 000 km,1 to 3 years
+not rented,not rented,none,none,over 200 000 km,3 to 5 years
+not rented,not rented,none,none,over 200 000 km,over 5 years

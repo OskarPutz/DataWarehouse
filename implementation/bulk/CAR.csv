@@ -1,0 +1,12 @@
+LicencePlate,LocationName,Brand,Model,Type,FuelType,Color,ProductionYear,PriceCategory,IsCurrent
+WA 10001,SigmaPol Warszawa Mokotów,Toyota,Corolla,sedan,hybrid,white,2025,economy,1
+WA 10002,SigmaPol Warszawa Mokotów,BMW,X5,suv,diesel,black,2022,luxury,1
+WA 20001,SigmaPol Warszawa Wola,Skoda,Octavia,combi,petrol,silver,2020,economy,1
+WA 20002,SigmaPol Warszawa Wola,Volkswagen,Transporter,van,diesel,white,2018,standard,1
+KR 30001,SigmaPol Kraków Nowa Huta,Kia,Sportage,suv,LPG,red,2023,standard,1
+KR 30002,SigmaPol Kraków Nowa Huta,Porsche,911,sport,petrol,grey,2024,luxury,1
+KR 30003,SigmaPol Kraków Nowa Huta,Toyota,RAV4,suv,hybrid,white,2026,standard,1
+CB 40001,SigmaPol Bydgoszcz Fordon,Ford,Focus,combi,petrol,blue,2021,economy,0
+CB 40001,SigmaPol Bydgoszcz Œródmieœcie,Ford,Focus,combi,petrol,blue,2021,economy,1
+CB 40002,SigmaPol Bydgoszcz Œródmieœcie,Audi,A4,sedan,electric,black,2025,standard,0
+CB 40002,SigmaPol Bydgoszcz Œródmieœcie,Audi,A4,sedan,electric,black,2025,premium,1

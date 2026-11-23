@@ -1,0 +1,15 @@
+PID,Name,Surname,NameAndSurname,Gender,DateOfBirth,AgeCategory,IsCurrent
+00000000000,not rented,not rented,not rented,not rented,,not rented,1
+01212033134,Jakub,Koz³owski,Jakub Koz³owski,male,2001-01-20,18-24,0
+01212033134,Jakub,Koz³owski,Jakub Koz³owski,male,2001-01-20,25-34,1
+04250340408,Zofia,Lewandowska,Zofia Lewandowska,female,2004-05-03,18-24,1
+96081107493,Adam,Szymañski,Adam Szymañski,male,1996-08-11,25-34,1
+90030209649,Maria,WoŸniak,Maria WoŸniak,female,1990-03-02,35-44,1
+85113059613,Micha³,Krawczyk,Micha³ Krawczyk,male,1985-11-30,35-44,1
+78071493188,Barbara,Jankowska,Barbara Jankowska,female,1978-07-14,45-54,1
+68022521910,Andrzej,Piotrowski,Andrzej Piotrowski,male,1968-02-25,55-64,1
+64090908866,Joanna,Mazur,Joanna Mazur,female,1964-09-09,55-64,1
+58120542814,Krzysztof,Kowalczyk,Krzysztof Kowalczyk,male,1958-12-05,65+,1
+55041824603,Ewa,Nowak,Ewa Nowak,female,1955-04-18,65+,1
+03300156473,Mateusz,Wójcik,Mateusz Wójcik,male,2003-10-01,18-24,1
+93062106085,Aleksandra,Zieliñska,Aleksandra Zieliñska,female,1993-06-21,25-34,1

@@ -1,0 +1,26 @@
+Hour,TimeOfDay
+0,between 0 and 8
+1,between 0 and 8
+2,between 0 and 8
+3,between 0 and 8
+4,between 0 and 8
+5,between 0 and 8
+6,between 0 and 8
+7,between 0 and 8
+8,between 0 and 8
+9,between 9 and 12
+10,between 9 and 12
+11,between 9 and 12
+12,between 9 and 12
+13,between 13 and 15
+14,between 13 and 15
+15,between 13 and 15
+16,between 16 and 20
+17,between 16 and 20
+18,between 16 and 20
+19,between 16 and 20
+20,between 16 and 20
+21,between 21 and 23
+22,between 21 and 23
+23,between 21 and 23
+,no rent

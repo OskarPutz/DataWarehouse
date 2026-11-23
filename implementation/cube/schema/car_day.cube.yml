@@ -1,0 +1,589 @@
+# Cube semantic layer for the SigmaPol data warehouse (Task 3: semantic layer design, Fact 1 - Car day fact).
+# Measures are aggregated values, dimensions are attributes for filtering or grouping.
+# Names follow "Measures and aggregation functions" and "Dimensions for Fact 1" of the semantic layer report.
+cubes:
+  - name: CarDay
+    # To use the materialized table instead of this view, set sql_table to dbo.FLAT_TABLE.
+    sql_table: dbo.FlatTable
+    #sql_table: dbo.FLAT_TABLE
+    title: Car Days
+    description: >
+      Car day semantic model built on the denormalized FlatTable view. Each row describes the state of one
+      car of the fleet on one day (rented, in the service or idle), with the rent and the service starting on that day.
+
+    measures:
+      # ---------- base measures ----------
+      - name: carDays
+        type: count
+        description: Number of car days, COUNT(1).
+
+      - name: cars
+        sql: LicencePlate
+        type: count_distinct
+        description: Number of cars, DistinctCount(LicencePlate).
+
+      - name: rentedDays
+        sql: RentedDay
+        type: sum
+        description: Number of rented days, Sum(RentedDay).
+
+      - name: serviceDays
+        sql: ServiceDay
+        type: sum
+        description: Number of service days, Sum(ServiceDay).
+
+      - name: availableDays
+        sql: AvailableDay
+        type: sum
+        description: Number of available days, Sum(AvailableDay).
+
+      - name: idleDays
+        sql: IdleDay
+        type: sum
+        description: Number of idle days, Sum(IdleDay).
+
+      - name: kmDriven
+        sql: KmDriven
+        type: sum
+        format: number_2
+        description: Km driven, Sum(KmDriven).
+
+      - name: rentals
+        sql: RentStarted
+        type: sum
+        description: Number of rentals, Sum(RentStarted).
+
+      - name: rentalRevenue
+        sql: RentCost
+        type: sum
+        format: currency_2
+        currency: PLN
+        description: Rental revenue, Sum(RentCost).
+
+      - name: rentalDaysOfIssuedRents
+        sql: RentalDays
+        type: sum
+        description: Rental days of issued rents, Sum(RentalDays).
+
+      - name: delayDays
+        sql: DelayDays
+        type: sum
+        description: Delay days, Sum(DelayDays).
+
+      - name: lateRentals
+        sql: LateRent
+        type: sum
+        description: Number of late rentals, Sum(LateRent).
+
+      - name: services
+        sql: ServiceStarted
+        type: sum
+        description: Number of services, Sum(ServiceStarted).
+
+      - name: unexpectedServices
+        sql: UnexpectedService
+        type: sum
+        description: Number of unexpected services, Sum(UnexpectedService).
+
+      - name: serviceCost
+        sql: ServiceCost
+        type: sum
+        format: currency_2
+        currency: PLN
+        description: Service cost, Sum(ServiceCost).
+
+      - name: mileageAtService
+        sql: ServiceMileage
+        type: sum
+        description: Mileage at service, Sum(ServiceMileage).
+
+      - name: kmSinceLastService
+        sql: KmSinceLastService
+        type: sum
+        description: Km since last service, Sum(KmSinceLastService).
+
+      - name: surveys
+        sql: SurveyAnswered
+        type: sum
+        description: Number of surveys, Sum(SurveyAnswered).
+
+      - name: carConditionRating
+        sql: CarConditionRating
+        type: sum
+        description: Car condition rating, Sum(CarConditionRating).
+
+      - name: reportedIssues
+        sql: IssuesReported
+        type: sum
+        description: Number of reported issues, Sum(IssuesReported).
+
+      - name: likelihoodToRentAgain
+        sql: LikelihoodToRentAgain
+        type: sum
+        description: Likelihood to rent again, Sum(LikelihoodToRentAgain).
+
+      # ---------- calculated measures ----------
+      # 1.0 * makes the division decimal; NULLIF returns NULL instead of a division-by-zero error.
+      - name: utilizationRate
+        sql: "1.0 * {rentedDays} / NULLIF({availableDays}, 0)"
+        type: number
+        format: percent_2
+        description: Utilization Rate = Number of rented days / Number of available days.
+
+      - name: utilizationGap
+        sql: "1.0 * {rentedDays} / NULLIF({availableDays}, 0) - 0.80"
+        type: number
+        format: percent_2
+        description: Utilization Gap (distance to the 80% target of the CEO) = Utilization Rate - 0.80.
+
+      - name: idleRate
+        sql: "1.0 * {idleDays} / NULLIF({availableDays}, 0)"
+        type: number
+        format: percent_2
+        description: Idle Rate = Number of idle days / Number of available days.
+
+      # Total number of available days of the fleet: the same sum as availableDays, but multi_stage with reduce_by
+      # first aggregates it without the employee and client dimensions, so grouping by an employee or a client
+      # does not shrink it to the days they had a car rented (on all other days the car points to "not rented").
+      # Filters are applied to both stages, so do not filter out "not rented" - group by the dimension and skip that row.
+      - name: fleetAvailableDays
+        sql: "{availableDays}"
+        type: sum
+        multi_stage: true
+        reduce_by:
+          - employeeNo
+          - employeeName
+          - employeeLocationName
+          - employeeCity
+          - pid
+          - clientName
+          - gender
+          - ageCategory
+          - clientSegment
+        description: Total number of available days of the fleet.
+
+      - name: utilizationContribution
+        sql: "1.0 * {rentedDays} / NULLIF({fleetAvailableDays}, 0)"
+        type: number
+        multi_stage: true
+        format: percent_2
+        description: >
+          Utilization Contribution (share of the overall utilization of the fleet generated by an employee or a client,
+          e.g. a client who rented cars for 10 days out of 1 000 available days of the fleet contributed 1%)
+          = Number of rented days / Total number of available days of the fleet.
+
+      - name: averageRentalLength
+        sql: "1.0 * {rentalDaysOfIssuedRents} / NULLIF({rentals}, 0)"
+        type: number
+        format: number_2
+        description: Average Rental Length = Rental days of issued rents / Number of rentals.
+
+      - name: revenuePerAvailableDay
+        sql: "1.0 * {rentalRevenue} / NULLIF({availableDays}, 0)"
+        type: number
+        format: currency_2
+        currency: PLN
+        description: Revenue per Available Day = Rental revenue / Number of available days.
+
+      - name: lateReturnRatio
+        sql: "1.0 * {lateRentals} / NULLIF({rentals}, 0)"
+        type: number
+        format: percent_2
+        description: Late Return Ratio = Number of late rentals / Number of rentals.
+
+      - name: kmPerRentalDay
+        sql: "1.0 * {kmDriven} / NULLIF({rentedDays}, 0)"
+        type: number
+        format: number_2
+        description: Km per Rental Day = Km driven / Number of rented days.
+
+      - name: averageMileageAtService
+        sql: "1.0 * {mileageAtService} / NULLIF({services}, 0)"
+        type: number
+        format: number_2
+        description: Average Mileage at Service = Mileage at service / Number of services.
+
+      - name: averageKmSinceLastService
+        sql: "1.0 * {kmSinceLastService} / NULLIF({services}, 0)"
+        type: number
+        format: number_2
+        description: Average Km since Last Service = Km since last service / Number of services.
+
+      - name: unexpectedServiceRatio
+        sql: "1.0 * {unexpectedServices} / NULLIF({services}, 0)"
+        type: number
+        format: percent_2
+        description: Unexpected Service Ratio = Number of unexpected services / Number of services.
+
+      - name: serviceCostPerCar
+        sql: "1.0 * {serviceCost} / NULLIF({cars}, 0)"
+        type: number
+        format: currency_2
+        currency: PLN
+        description: Service Cost per Car = Service cost / Number of cars.
+
+      - name: averageCarConditionRating
+        sql: "1.0 * {carConditionRating} / NULLIF({surveys}, 0)"
+        type: number
+        format: number_2
+        description: Average Car Condition Rating = Car condition rating / Number of surveys.
+
+      - name: issueRatio
+        sql: "1.0 * {reportedIssues} / NULLIF({surveys}, 0)"
+        type: number
+        format: percent_2
+        description: Issue Ratio = Number of reported issues / Number of surveys.
+
+      - name: averageLikelihoodToRentAgain
+        sql: "1.0 * {likelihoodToRentAgain} / NULLIF({surveys}, 0)"
+        type: number
+        format: number_2
+        description: Average Likelihood to Rent Again = Likelihood to rent again / Number of surveys.
+
+    dimensions:
+      # Cube needs a primary key to know the grain of the cube (one car on one day).
+      - name: factKey
+        sql: "CONCAT({CUBE}.Id_Date, '_', {CUBE}.Id_Car)"
+        type: string
+        primary_key: true
+        public: false
+        description: Id_Date and Id_Car of the car day.
+
+      - name: rentNo
+        sql: RentNo
+        type: number
+        description: Rent Number.
+
+      - name: serviceNo
+        sql: ServiceNo
+        type: number
+        description: Service Number.
+
+      # ---------- car ----------
+      - name: licencePlate
+        sql: LicencePlate
+        type: string
+        description: Licence Plate.
+
+      - name: brand
+        sql: Brand
+        type: string
+        description: Car Brand.
+
+      - name: model
+        sql: Model
+        type: string
+        description: Car Model.
+
+      - name: type
+        sql: "{CUBE}.[Type]"
+        type: string
+        description: "Car Type: suv, van, combi, sedan, coupe, sport."
+
+      - name: fuelType
+        sql: FuelType
+        type: string
+        description: "Fuel Type: petrol, diesel, LPG, electric, hybrid."
+
+      - name: color
+        sql: Color
+        type: string
+        description: Car Color.
+
+      - name: productionYear
+        sql: ProductionYear
+        type: number
+        description: Production Year.
+
+      - name: priceCategory
+        sql: PriceCategory
+        type: string
+        description: "Price Category: economy, standard, premium, luxury."
+
+      # ---------- rental point of the car ----------
+      - name: carLocationName
+        sql: CarLocationName
+        type: string
+        title: Rental Point Name
+        description: Rental Point Name (rental point the car is assigned to).
+
+      - name: carCity
+        sql: CarCity
+        type: string
+        title: Rental Point City
+        description: Rental Point City.
+
+      - name: carDistrict
+        sql: CarDistrict
+        type: string
+        title: Rental Point District
+        description: Rental Point District.
+
+      - name: carStreet
+        sql: CarStreet
+        type: string
+        title: Rental Point Street
+        description: Rental Point Street.
+
+      - name: carLocationStatus
+        sql: CarLocationStatus
+        type: string
+        title: Rental Point Status
+        description: "Rental Point Status: open, closed."
+
+      # ---------- employee ----------
+      - name: employeeNo
+        sql: EmployeeNo
+        type: number
+        description: Employee Number (0 = not rented).
+
+      - name: employeeName
+        sql: EmployeeNameAndSurname
+        type: string
+        description: Employee Name.
+
+      - name: employeeLocationName
+        sql: EmployeeLocationName
+        type: string
+        title: Employee Rental Point
+        description: Employee Rental Point.
+
+      - name: employeeCity
+        sql: EmployeeCity
+        type: string
+        description: City of the employee's rental point.
+
+      # ---------- client ----------
+      - name: pid
+        sql: PID
+        type: string
+        title: PID
+        description: Client's PESEL.
+
+      - name: clientName
+        sql: ClientNameAndSurname
+        type: string
+        description: Client Name.
+
+      - name: gender
+        sql: Gender
+        type: string
+        title: Client Gender
+        description: Client Gender.
+
+      - name: ageCategory
+        sql: AgeCategory
+        type: string
+        title: Client Age Category
+        description: "Client Age Category: 18-24, 25-34, 35-44, 45-54, 55-64, 65+, not rented."
+
+      - name: clientSegment
+        sql: ClientSegment
+        type: string
+        description: "Client Segment: young driver, standard driver, senior driver, not rented."
+
+      # ---------- date ----------
+      - name: year
+        sql: "{CUBE}.[Year]"
+        type: number
+        description: Year.
+
+      - name: quarter
+        sql: "{CUBE}.[Quarter]"
+        type: number
+        description: Quarter.
+
+      - name: month
+        sql: "{CUBE}.[Month]"
+        type: string
+        title: Date Month
+        description: Date Month (month name).
+
+      - name: monthNo
+        sql: MonthNo
+        type: number
+        description: Month number, for sorting months.
+
+      - name: date
+        # Not wrapped in CAST: date filters on the bare column allow partition elimination (with_partitions).
+        sql: "{CUBE}.[Date]"
+        type: time
+        description: Date (use month granularity for monthly comparisons).
+
+      - name: dayOfWeek
+        sql: DayOfWeek
+        type: string
+        description: Day of Week.
+
+      - name: workingDay
+        sql: WorkingDay
+        type: string
+        description: "Working Day: day off, working day."
+
+      - name: season
+        sql: Season
+        type: string
+        description: "Season: winter, spring, summer, autumn."
+
+      - name: vacation
+        sql: Vacation
+        type: string
+        title: Vacation Day
+        description: "Vacation Day: non-holiday, winter holiday, summer holiday."
+
+      - name: holiday
+        sql: Holiday
+        type: string
+        title: Holiday Day
+        description: Holiday Day (public holiday on the day, none otherwise).
+
+      - name: beforeHolidayDay
+        sql: BeforeHolidayDay
+        type: string
+        description: Before Holiday Day (public holiday on the next day, none otherwise).
+
+      - name: periodType
+        sql: PeriodType
+        type: string
+        description: "Period Type: public holiday, before holiday, weekend, summer holiday, winter holiday, regular day."
+
+      # ---------- issue time ----------
+      - name: timeOfDay
+        sql: TimeOfDay
+        type: string
+        title: Issue Time of Day
+        description: Issue Time of Day (no rent if no rent starts on the day).
+
+      - name: hour
+        sql: "{CUBE}.[Hour]"
+        type: number
+        title: Issue Hour
+        description: Issue Hour.
+
+      # ---------- junk ----------
+      - name: returnStatus
+        sql: ReturnStatus
+        type: string
+        description: "Return Status: on time, late, not rented."
+
+      - name: rentalLength
+        sql: RentalLength
+        type: string
+        description: "Rental Length: 1 to 3 days, 4 to 7 days, 8 to 14 days, more than 14 days, not rented."
+
+      - name: serviceType
+        sql: ServiceType
+        type: string
+        description: "Service Type: routine, accident, malfunction, none."
+
+      - name: serviceKind
+        sql: ServiceKind
+        type: string
+        description: "Service Kind: planned, unexpected, none."
+
+      - name: mileageCategory
+        sql: MileageCategory
+        type: string
+        description: Mileage Category (mileage of the car on the day).
+
+      - name: monthStartMileageCategory
+        sql: MonthStartMileageCategory
+        type: string
+        description: Month Start Mileage Category (mileage of the car on the first day of the month).
+
+      - name: carAgeCategory
+        sql: CarAgeCategory
+        type: string
+        description: "Car Age Category: up to 1 year, 1 to 3 years, 3 to 5 years, over 5 years."
+
+      - name: satisfactionLevel
+        sql: SatisfactionLevel
+        type: string
+        description: "Satisfaction Level: satisfied, neutral, dissatisfied, no survey."
+
+    hierarchies:
+      - name: carHierarchy
+        title: Car Hierarchy
+        levels:
+          - brand
+          - model
+          - licencePlate
+
+      - name: carTypeHierarchy
+        title: Car Type Hierarchy
+        levels:
+          - type
+          - brand
+          - model
+
+      - name: rentalPointLocalizationHierarchy
+        title: Rental Point Localization Hierarchy
+        levels:
+          - carCity
+          - carDistrict
+          - carLocationName
+          - licencePlate
+
+      - name: employeeHierarchy
+        title: Employee Hierarchy
+        levels:
+          - employeeCity
+          - employeeLocationName
+          - employeeName
+
+      - name: clientHierarchy
+        title: Client Hierarchy
+        levels:
+          - clientSegment
+          - ageCategory
+          - pid
+
+      - name: dateHierarchy
+        title: Date Hierarchy
+        levels:
+          - year
+          - quarter
+          - month
+          - date
+
+      - name: dayOfWeekHierarchy
+        title: Day of Week Hierarchy
+        levels:
+          - year
+          - month
+          - dayOfWeek
+          - date
+
+      - name: holidayTimeHierarchy
+        title: Holiday Time Hierarchy
+        levels:
+          - year
+          - vacation
+          - date
+
+      - name: workingDateHierarchy
+        title: Working Date Hierarchy
+        levels:
+          - year
+          - month
+          - workingDay
+          - date
+
+      - name: seasonHierarchy
+        title: Season Hierarchy
+        levels:
+          - year
+          - season
+          - month
+
+      - name: issueTimeHierarchy
+        title: Issue Time Hierarchy
+        levels:
+          - timeOfDay
+          - hour
+
+      - name: serviceHierarchy
+        title: Service Hierarchy
+        levels:
+          - serviceKind
+          - serviceType

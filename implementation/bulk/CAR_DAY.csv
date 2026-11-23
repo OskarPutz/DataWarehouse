@@ -1,0 +1,780 @@
+Date,LicencePlate,CarLocationName,PriceCategory,EmployeeNo,EmployeeLocationName,PID,ClientAgeCategory,IssueHour,ReturnStatus,RentalLength,ServiceType,MileageCategory,CarAgeCategory,RentNo,ServiceNo,RentedDay,ServiceDay,AvailableDay,IdleDay,Mileage,KmDriven,RentStarted,RentCost,RentalDays,DelayDays,ServiceStarted,ServiceCost,KmSinceLastService,SurveyAnswered,CarConditionRating,IssuesReported,LikelihoodToRentAgain
+2025-12-01,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,8,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,1,3150.00,21,0,0,0.00,0,1,3,1,3
+2025-12-02,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1001,,1,0,1,0,9000,187.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,1,8867.00,12927,0,0,0,0
+2025-12-23,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,up to 1 year,,201,0,1,0,0,12927,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,18,on time,8 to 14 days,none,up to 50 000 km,up to 1 year,1002,,1,0,1,0,12927,86.0,1,2100.00,14,0,0,0.00,0,1,5,0,4
+2026-01-01,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,up to 1 year,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1002,,1,0,1,0,12927,86.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,55041824603,65+,16,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1003,,1,0,1,0,14131,149.0,1,450.00,3,0,0,0.00,0,0,0,0,0
+2026-01-15,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1003,,1,0,1,0,14131,149.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1003,,1,0,1,0,14131,149.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,16,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1004,,1,0,1,0,14578,166.0,1,300.00,2,0,0,0.00,0,1,3,0,4
+2026-01-18,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1004,,1,0,1,0,14578,166.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,78071493188,45-54,14,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1005,,1,0,1,0,14910,50.0,1,450.00,3,0,0,0.00,0,1,4,0,4
+2026-01-20,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,78071493188,45-54,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1005,,1,0,1,0,14910,50.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,78071493188,45-54,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1005,,1,0,1,0,14910,50.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,15,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,1,1050.00,7,0,0,0.00,0,1,3,0,3
+2026-01-23,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,55041824603,65+,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1006,,1,0,1,0,15060,57.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,14,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,1,1050.00,7,0,0,0.00,0,1,1,1,1
+2026-01-30,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1007,,1,0,1,0,15459,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,1,2965.00,4009,0,0,0,0
+2026-02-06,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,1 to 3 years,,202,0,1,0,0,16936,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,85113059613,35-44,14,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1008,,1,0,1,0,16936,140.0,1,450.00,3,0,0,0.00,0,1,3,1,3
+2026-02-18,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,85113059613,35-44,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1008,,1,0,1,0,16936,140.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,WA 10001,SigmaPol Warszawa Mokotów,economy,2,SigmaPol Warszawa Mokotów,85113059613,35-44,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1008,,1,0,1,0,16936,140.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,malfunction,up to 50 000 km,1 to 3 years,,203,0,1,0,0,17356,0,0,0.00,0,0,1,2263.00,420,0,0,0,0
+2026-02-21,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,malfunction,up to 50 000 km,1 to 3 years,,203,0,1,0,0,17356,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,malfunction,up to 50 000 km,1 to 3 years,,203,0,1,0,0,17356,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,WA 10001,SigmaPol Warszawa Mokotów,economy,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,17356,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,68022521910,55-64,14,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1009,,1,0,1,0,17356,99.0,1,750.00,5,0,0,0.00,0,1,3,1,3
+2026-02-25,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,68022521910,55-64,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1009,,1,0,1,0,17356,99.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,68022521910,55-64,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1009,,1,0,1,0,17356,99.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-27,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,68022521910,55-64,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1009,,1,0,1,0,17356,99.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,WA 10001,SigmaPol Warszawa Mokotów,economy,1,SigmaPol Warszawa Mokotów,68022521910,55-64,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1009,,1,0,1,0,17356,99.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-01,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,8,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1010,,1,0,1,0,61000,77.0,1,1260.00,3,0,0,0.00,0,1,4,0,3
+2025-12-02,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1010,,1,0,1,0,61000,77.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1010,,1,0,1,0,61000,77.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,14,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,1,2940.00,7,0,0,0.00,0,1,1,1,2
+2025-12-05,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1011,,1,0,1,0,61231,66.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,17,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,1,6300.00,15,1,0,0.00,0,1,1,1,2
+2025-12-12,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,late,more than 14 days,none,50 000 to 100 000 km,3 to 5 years,1012,,1,0,1,0,61693,78.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,15,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1013,,1,0,1,0,62863,71.0,1,2100.00,5,0,0,0.00,0,0,0,0,0
+2025-12-27,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1013,,1,0,1,0,62863,71.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1013,,1,0,1,0,62863,71.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1013,,1,0,1,0,62863,71.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,64090908866,55-64,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1013,,1,0,1,0,62863,71.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,01212033134,18-24,15,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1014,,1,0,1,0,63218,217.0,1,2100.00,5,0,0,0.00,0,1,4,0,4
+2026-01-01,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1014,,1,0,1,0,63218,217.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1014,,1,0,1,0,63218,217.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1014,,1,0,1,0,63218,217.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1014,,1,0,1,0,63218,217.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,18,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,1,4200.00,10,0,0,0.00,0,0,0,0,0
+2026-01-06,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,01212033134,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1015,,1,0,1,0,64303,63.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,58120542814,65+,14,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1016,,1,0,1,0,64933,229.0,1,1260.00,3,0,0,0.00,0,1,3,0,3
+2026-01-16,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,58120542814,65+,,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1016,,1,0,1,0,64933,229.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,58120542814,65+,,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1016,,1,0,1,0,64933,229.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,15,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,1,5880.00,14,0,0,0.00,0,1,4,0,5
+2026-01-19,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-30,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,04250340408,18-24,,on time,8 to 14 days,none,50 000 to 100 000 km,3 to 5 years,1017,,1,0,1,0,65620,246.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,17,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,1,2940.00,7,0,0,0.00,0,1,3,0,4
+2026-02-02,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1018,,1,0,1,0,69064,40.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,WA 10002,SigmaPol Warszawa Mokotów,luxury,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,69344,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,WA 10002,SigmaPol Warszawa Mokotów,luxury,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,69344,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,13,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,1,2940.00,7,0,0,0.00,0,0,0,0,0
+2026-02-11,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,96081107493,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1019,,1,0,1,0,69344,62.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,WA 10002,SigmaPol Warszawa Mokotów,luxury,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,69778,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,10,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,1,2940.00,7,0,0,0.00,0,1,4,0,3
+2026-02-19,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1020,,1,0,1,0,69778,196.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,93062106085,25-34,10,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1021,,1,0,1,0,71150,151.0,1,840.00,2,0,0,0.00,0,1,4,0,4
+2026-02-26,WA 10002,SigmaPol Warszawa Mokotów,luxury,1,SigmaPol Warszawa Mokotów,93062106085,25-34,,on time,1 to 3 days,none,50 000 to 100 000 km,3 to 5 years,1021,,1,0,1,0,71150,151.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-27,WA 10002,SigmaPol Warszawa Mokotów,luxury,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,71452,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,WA 10002,SigmaPol Warszawa Mokotów,luxury,2,SigmaPol Warszawa Mokotów,55041824603,65+,8,on time,4 to 7 days,none,50 000 to 100 000 km,3 to 5 years,1022,,1,0,1,0,71452,229.0,1,2940.00,7,0,0,0.00,0,0,0,0,0
+2025-12-01,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-02,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,118000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,15,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,1,1190.00,7,0,0,0.00,0,0,0,0,0
+2026-01-01,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1023,,1,0,1,0,118000,169.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,none,100 000 to 200 000 km,over 5 years,,,0,0,1,1,119183,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,9,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,1,1190.00,7,0,0,0.00,0,1,3,0,3
+2026-01-09,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1024,,1,0,1,0,119183,211.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,routine,100 000 to 200 000 km,over 5 years,,204,0,1,0,0,120660,0,0,0.00,0,0,1,546.00,16160,0,0,0,0
+2026-01-16,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,routine,100 000 to 200 000 km,over 5 years,,204,0,1,0,0,120660,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,18-24,9,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,1,1190.00,7,0,0,0.00,0,0,0,0,0
+2026-01-18,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,25-34,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,25-34,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,25-34,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,01212033134,25-34,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1025,,1,0,1,0,120660,141.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,78071493188,45-54,19,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1026,,1,0,1,0,121647,133.0,1,850.00,5,0,0,0.00,0,1,5,0,5
+2026-01-25,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,78071493188,45-54,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1026,,1,0,1,0,121647,133.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,78071493188,45-54,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1026,,1,0,1,0,121647,133.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,78071493188,45-54,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1026,,1,0,1,0,121647,133.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,78071493188,45-54,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1026,,1,0,1,0,121647,133.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,9,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,1,1700.00,10,0,0,0.00,0,1,3,0,3
+2026-01-30,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,64090908866,55-64,,on time,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1027,,1,0,1,0,122312,241.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,18,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,1,1190.00,7,0,0,0.00,0,1,5,0,5
+2026-02-09,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,WA 20001,SigmaPol Warszawa Wola,economy,4,SigmaPol Warszawa Wola,04250340408,18-24,,on time,4 to 7 days,none,100 000 to 200 000 km,over 5 years,1028,,1,0,1,0,124722,249.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,01212033134,25-34,9,on time,1 to 3 days,none,100 000 to 200 000 km,over 5 years,1029,,1,0,1,0,126465,108.0,1,510.00,3,0,0,0.00,0,0,0,0,0
+2026-02-16,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,01212033134,25-34,,on time,1 to 3 days,none,100 000 to 200 000 km,over 5 years,1029,,1,0,1,0,126465,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,01212033134,25-34,,on time,1 to 3 days,none,100 000 to 200 000 km,over 5 years,1029,,1,0,1,0,126465,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,14,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,1,1700.00,10,3,0,0.00,0,0,0,0,0
+2026-02-19,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-27,WA 20001,SigmaPol Warszawa Wola,economy,3,SigmaPol Warszawa Wola,04250340408,18-24,,late,8 to 14 days,none,100 000 to 200 000 km,over 5 years,1030,,1,0,1,0,126789,108.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,WA 20001,SigmaPol Warszawa Wola,economy,0,,00000000000,not rented,,not rented,not rented,accident,100 000 to 200 000 km,over 5 years,,205,0,1,0,0,127869,0,0,0.00,0,0,1,2825.00,7209,0,0,0,0
+2025-12-01,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-02,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-01,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,214000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,8,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,1,2700.00,10,0,0,0.00,0,1,5,0,5
+2026-01-19,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1031,,1,0,1,0,214000,119.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,routine,over 200 000 km,over 5 years,,206,0,1,0,0,215190,0,0,0.00,0,0,1,654.00,15390,0,0,0,0
+2026-01-29,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,9,on time,1 to 3 days,none,over 200 000 km,over 5 years,1032,,1,0,1,0,215190,76.0,1,540.00,2,0,0,0.00,0,1,4,0,3
+2026-01-30,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,1 to 3 days,none,over 200 000 km,over 5 years,1032,,1,0,1,0,215190,76.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,WA 20002,SigmaPol Warszawa Wola,standard,0,,00000000000,not rented,,not rented,not rented,none,over 200 000 km,over 5 years,,,0,0,1,1,215342,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,17,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,1,5670.00,21,0,0,0.00,0,1,5,0,5
+2026-02-02,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,WA 20002,SigmaPol Warszawa Wola,standard,4,SigmaPol Warszawa Wola,78071493188,45-54,,on time,more than 14 days,none,over 200 000 km,over 5 years,1033,,1,0,1,0,215342,139.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,16,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,1,2700.00,10,0,0,0.00,0,1,4,0,3
+2026-02-23,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-27,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,WA 20002,SigmaPol Warszawa Wola,standard,3,SigmaPol Warszawa Wola,58120542814,65+,,on time,8 to 14 days,none,over 200 000 km,over 5 years,1034,,1,0,1,0,218261,232.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-01,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-02,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-01,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-30,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,42000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,11,on time,1 to 3 days,none,up to 50 000 km,3 to 5 years,1035,,1,0,1,0,42000,167.0,1,480.00,2,0,0,0.00,0,1,5,0,5
+2026-02-06,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,1 to 3 days,none,up to 50 000 km,3 to 5 years,1035,,1,0,1,0,42000,167.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,13,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,1,1680.00,7,0,0,0.00,0,0,0,0,0
+2026-02-08,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1036,,1,0,1,0,42334,70.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,1,13682.00,7824,0,0,0,0
+2026-02-15,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,accident,up to 50 000 km,3 to 5 years,,207,0,1,0,0,42824,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,64090908866,55-64,9,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1037,,1,0,1,0,42824,140.0,1,960.00,4,0,0,0.00,0,1,5,0,5
+2026-02-23,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,64090908866,55-64,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1037,,1,0,1,0,42824,140.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,64090908866,55-64,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1037,,1,0,1,0,42824,140.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,64090908866,55-64,,on time,4 to 7 days,none,up to 50 000 km,3 to 5 years,1037,,1,0,1,0,42824,140.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,KR 30001,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,3 to 5 years,,,0,0,1,1,43384,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-27,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,01212033134,25-34,10,on time,more than 14 days,none,up to 50 000 km,3 to 5 years,1038,,1,0,1,0,43384,103.0,1,5040.00,21,0,0,0.00,0,1,5,0,4
+2026-02-28,KR 30001,SigmaPol Kraków Nowa Huta,standard,8,SigmaPol Kraków Nowa Huta,01212033134,25-34,,on time,more than 14 days,none,up to 50 000 km,3 to 5 years,1038,,1,0,1,0,43384,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-01,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-02,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-01,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-30,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,21000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,15,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,1,4800.00,10,0,0,0.00,0,1,3,0,4
+2026-02-10,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,90030209649,35-44,,on time,8 to 14 days,none,up to 50 000 km,1 to 3 years,1039,,1,0,1,0,21000,103.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,96081107493,25-34,11,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1040,,1,0,1,0,22030,185.0,1,480.00,1,0,0,0.00,0,1,4,0,5
+2026-02-20,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,22215,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,KR 30002,SigmaPol Kraków Nowa Huta,luxury,8,SigmaPol Kraków Nowa Huta,96081107493,25-34,17,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1041,,1,0,1,0,22215,89.0,1,1920.00,4,0,0,0.00,0,0,0,0,0
+2026-02-22,KR 30002,SigmaPol Kraków Nowa Huta,luxury,8,SigmaPol Kraków Nowa Huta,96081107493,25-34,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1041,,1,0,1,0,22215,89.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,KR 30002,SigmaPol Kraków Nowa Huta,luxury,8,SigmaPol Kraków Nowa Huta,96081107493,25-34,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1041,,1,0,1,0,22215,89.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,KR 30002,SigmaPol Kraków Nowa Huta,luxury,8,SigmaPol Kraków Nowa Huta,96081107493,25-34,,on time,4 to 7 days,none,up to 50 000 km,1 to 3 years,1041,,1,0,1,0,22215,89.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,KR 30002,SigmaPol Kraków Nowa Huta,luxury,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,22571,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,85113059613,35-44,11,on time,more than 14 days,none,up to 50 000 km,1 to 3 years,1042,,1,0,1,0,22571,161.0,1,10080.00,21,0,0,0.00,0,1,4,0,3
+2026-02-27,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,85113059613,35-44,,on time,more than 14 days,none,up to 50 000 km,1 to 3 years,1042,,1,0,1,0,22571,161.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,KR 30002,SigmaPol Kraków Nowa Huta,luxury,5,SigmaPol Kraków Nowa Huta,85113059613,35-44,,on time,more than 14 days,none,up to 50 000 km,1 to 3 years,1042,,1,0,1,0,22571,161.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-01,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-30,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,KR 30003,SigmaPol Kraków Nowa Huta,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,20,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,19,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,1,4935.00,21,0,0,0.00,0,0,0,0,0
+2026-02-15,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-27,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,KR 30003,SigmaPol Kraków Nowa Huta,standard,5,SigmaPol Kraków Nowa Huta,03300156473,18-24,,on time,more than 14 days,none,up to 50 000 km,up to 1 year,1043,,1,0,1,0,20,159.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-01,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-02,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,CB 40001,SigmaPol Bydgoszcz Fordon,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-01,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,3 to 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-30,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,0,,00000000000,not rented,,not rented,not rented,none,50 000 to 100 000 km,over 5 years,,,0,0,1,1,96000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,18,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,1,1155.00,7,0,0,0.00,0,1,4,0,4
+2026-02-20,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,4 to 7 days,none,50 000 to 100 000 km,over 5 years,1044,,1,0,1,0,96000,100.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,78071493188,45-54,10,on time,1 to 3 days,none,50 000 to 100 000 km,over 5 years,1045,,1,0,1,0,96700,102.0,1,495.00,3,0,0,0.00,0,0,0,0,0
+2026-02-27,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,78071493188,45-54,,on time,1 to 3 days,none,50 000 to 100 000 km,over 5 years,1045,,1,0,1,0,96700,102.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,CB 40001,SigmaPol Bydgoszcz Œródmieœcie,economy,6,SigmaPol Bydgoszcz Œródmieœcie,78071493188,45-54,,on time,1 to 3 days,none,50 000 to 100 000 km,over 5 years,1045,,1,0,1,0,96700,102.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-01,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,routine,up to 50 000 km,up to 1 year,,208,0,1,0,0,15000,0,0,0.00,0,0,1,657.00,15000,0,0,0,0
+2025-12-02,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,routine,up to 50 000 km,up to 1 year,,208,0,1,0,0,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-03,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-04,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-05,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-06,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-07,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-08,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-09,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-10,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-11,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-12,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-13,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-14,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-15,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-16,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-17,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-18,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-19,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-20,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-21,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-22,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-23,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-24,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-25,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-26,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-27,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-28,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-29,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-30,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2025-12-31,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-01,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,up to 1 year,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-02,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-03,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-04,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-05,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-06,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-07,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-08,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-09,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-10,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-11,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-12,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-13,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-14,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-15,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-16,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-17,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-18,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-19,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-20,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-21,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-22,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-23,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-24,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-25,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-26,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-27,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-28,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-29,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-30,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-01-31,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,standard,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-01,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-02,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-03,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-04,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-05,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-06,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-07,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-08,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-09,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-10,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-11,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-12,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-13,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-14,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-15,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-16,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-17,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-18,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-19,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-20,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-21,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-22,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-23,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-24,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-25,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,0,,00000000000,not rented,,not rented,not rented,none,up to 50 000 km,1 to 3 years,,,0,0,1,1,15000,0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-26,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,7,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,8,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1046,,1,0,1,0,15000,163.0,1,957.00,3,0,0,0.00,0,0,0,0,0
+2026-02-27,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,7,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1046,,1,0,1,0,15000,163.0,0,0.00,0,0,0,0.00,0,0,0,0,0
+2026-02-28,CB 40002,SigmaPol Bydgoszcz Œródmieœcie,premium,7,SigmaPol Bydgoszcz Œródmieœcie,90030209649,35-44,,on time,1 to 3 days,none,up to 50 000 km,1 to 3 years,1046,,1,0,1,0,15000,163.0,0,0.00,0,0,0,0.00,0,0,0,0,0
